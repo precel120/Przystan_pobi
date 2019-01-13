@@ -11,6 +11,9 @@ Space::Space(string id,int length, int width,int baseRentPrice) {
     this->baseRentPrice=baseRentPrice;
 }
 Space::~Space() {}
+int Space::getActualRentalPrice() {
+    return baseRentPrice;
+}
 string Space::spaceInfo() {
     stringstream all;
     all<<length<<width<<baseRentPrice;

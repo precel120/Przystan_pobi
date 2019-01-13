@@ -4,15 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pobi/CLionProjects/Proba2/library/include/Container.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/include/Container.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/include/Cutter.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/include/Large.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/include/Large.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/include/Small.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/include/Small.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/src/Client.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/src/Client.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/src/FirstTime.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/src/Regular.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/src/Regular.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/src/Rent.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/src/Rent.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/src/Space.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/src/Space.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Client.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Container.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Cutter.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/FirstTime.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Large.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Regular.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Rent.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Small.cpp.o"
+  "/home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp" "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/src/Space.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

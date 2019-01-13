@@ -47,7 +47,7 @@ int Client::maxSpace() {
 }
 string Client::clientInfo() {
     stringstream all;
-    all<<id<<firstName<<lastName<<address;
+    all<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
     return all.str();
 }
 

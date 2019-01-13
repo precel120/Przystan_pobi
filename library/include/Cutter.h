@@ -12,7 +12,8 @@ class Cutter:public Large {
 public:
     Cutter(string id, int length, int width, int baseRentPrice,int weight);
     ~Cutter();
-    int actualRentalPrice();
+    int getActualRentalPrice();
+    string spaceInfo();
 };
 
 

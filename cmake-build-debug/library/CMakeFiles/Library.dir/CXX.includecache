@@ -6,27 +6,35 @@
 
 #IncludeRegexTransform: 
 
-../library/include/BazaTransportowa.h
+../library/include/Container.h
+Large.h
+../library/include/Large.h
+
+../library/include/Cutter.h
+Large.h
+../library/include/Large.h
+
+../library/include/Large.h
+Space.h
+../library/include/Space.h
+sstream
+-
 iostream
 -
-list
+
+../library/include/Space.h
+iostream
+-
+sstream
 -
 memory
 -
-Pojazd.h
-../library/include/Pojazd.h
 
-../library/include/Pojazd.h
-iostream
--
+/home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp
+Container.h
+/home/pobi/Pulpit/ProjectPOBI/library/src/Container.h
 
-/home/pobi/CLionProjects/Proba2/library/src/BazaTransportowa.cpp
-BazaTransportowa.h
-/home/pobi/CLionProjects/Proba2/library/src/BazaTransportowa.h
-list
--
-iostream
--
-memory
--
+/home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp
+Cutter.h
+/home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.h
 

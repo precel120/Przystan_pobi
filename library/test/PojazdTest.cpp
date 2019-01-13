@@ -1,29 +1,28 @@
 #include <boost/test/unit_test.hpp>
 
-#include "Pojazd.h"
-#include "Ciezarowy.h"
 #include "Client.h"
-#include "BazaTransportowa.h"
+#include "Rent.h"
+#include "Container.h"
+#include "Cutter.h"
+#include "Small.h"
 
-BOOST_AUTO_TEST_SUITE(PojazdSuiteCorrect)
+BOOST_AUTO_TEST_SUITE(CreatingCorrect)
 
-BOOST_AUTO_TEST_CASE(PojazdCase) {
-    shared_ptr<BazaTransportowa> baza (new BazaTransportowa);
-    shared_ptr<Pojazd> c1 (new Ciezarowy("123",2011,12));
-    shared_ptr<Pojazd> c2 (new Ciezarowy("12",2012,12));
-    shared_ptr<Pojazd> a1 (new Client("1",2013,12));
-    shared_ptr<Pojazd> a2 (new Client("12",2014,12));
-    shared_ptr<Pojazd> a3 (new Client("1234",2015,12));
-        baza->dodajPojazd(c1);
-        baza->dodajPojazd(c2);
-        baza->dodajPojazd(a1);
-        baza->dodajPojazd(a2);
-        baza->dodajPojazd(a3);
-
-    BOOST_REQUIRE_EQUAL(baza->znajdzNowsze(2012).size(),4);
-    //BOOST_REQUIRE_EQUAL(baza->znajdzNowsze(2012),a1);
+BOOST_AUTO_TEST_CASE(CreatingClientCase) {
+        Client K1("Adam", "Sadowski", "Slomiana 23E");
+        cout << K1.clientInfo()<<endl;
+        BOOST_CHECK_EQUAL(K1.getFirstName(), "Adam");
+        BOOST_CHECK_EQUAL(K1.getLastName(), "Sadowski");
+        BOOST_CHECK_EQUAL(K1.getAddress(), "Slomiana 23E");
 }
-
+BOOST_AUTO_TEST_CASE(CreatingSpacesCase){
+    Cutter Cu1("Cut1",20,10,500,60);
+    Container Co1("Cont1",40,20,700,100);
+    Large L1("Large",50,50,500,300);
+    BOOST_CHECK_EQUAL(Cu1.getActualRentalPrice(),1000);
+    BOOST_CHECK_EQUAL(Co1.getActualRentalPrice(),15400);
+    BOOST_CHECK_EQUAL(L1.getActualRentalPrice(),500);
+}
 BOOST_AUTO_TEST_SUITE_END()
 
 

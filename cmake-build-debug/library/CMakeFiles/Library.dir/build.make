@@ -46,10 +46,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/Proba2
+CMAKE_SOURCE_DIR = /home/pobi/Pulpit/ProjectPOBI
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pobi/CLionProjects/Proba2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include library/CMakeFiles/Library.dir/depend.make
@@ -62,120 +62,120 @@ include library/CMakeFiles/Library.dir/flags.make
 
 library/CMakeFiles/Library.dir/src/Client.cpp.o: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/Client.cpp.o: ../library/src/Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Library.dir/src/Client.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object library/CMakeFiles/Library.dir/src/Client.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp
 
 library/CMakeFiles/Library.dir/src/Client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Client.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/Client.cpp > CMakeFiles/Library.dir/src/Client.cpp.i
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp > CMakeFiles/Library.dir/src/Client.cpp.i
 
 library/CMakeFiles/Library.dir/src/Client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Client.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/Client.cpp -o CMakeFiles/Library.dir/src/Client.cpp.s
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp -o CMakeFiles/Library.dir/src/Client.cpp.s
 
 library/CMakeFiles/Library.dir/src/Regular.cpp.o: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/Regular.cpp.o: ../library/src/Regular.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Library.dir/src/Regular.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Regular.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Regular.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Library.dir/src/Regular.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Regular.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp
 
 library/CMakeFiles/Library.dir/src/Regular.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Regular.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/Regular.cpp > CMakeFiles/Library.dir/src/Regular.cpp.i
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp > CMakeFiles/Library.dir/src/Regular.cpp.i
 
 library/CMakeFiles/Library.dir/src/Regular.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Regular.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/Regular.cpp -o CMakeFiles/Library.dir/src/Regular.cpp.s
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp -o CMakeFiles/Library.dir/src/Regular.cpp.s
 
 library/CMakeFiles/Library.dir/src/FirstTime.cpp.o: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/FirstTime.cpp.o: ../library/src/FirstTime.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/Library.dir/src/FirstTime.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/FirstTime.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object library/CMakeFiles/Library.dir/src/FirstTime.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/FirstTime.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp
 
 library/CMakeFiles/Library.dir/src/FirstTime.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/FirstTime.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp > CMakeFiles/Library.dir/src/FirstTime.cpp.i
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp > CMakeFiles/Library.dir/src/FirstTime.cpp.i
 
 library/CMakeFiles/Library.dir/src/FirstTime.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/FirstTime.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp -o CMakeFiles/Library.dir/src/FirstTime.cpp.s
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp -o CMakeFiles/Library.dir/src/FirstTime.cpp.s
 
 library/CMakeFiles/Library.dir/src/Rent.cpp.o: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/Rent.cpp.o: ../library/src/Rent.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Library.dir/src/Rent.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Rent.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Rent.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Library.dir/src/Rent.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Rent.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp
 
 library/CMakeFiles/Library.dir/src/Rent.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Rent.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/Rent.cpp > CMakeFiles/Library.dir/src/Rent.cpp.i
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp > CMakeFiles/Library.dir/src/Rent.cpp.i
 
 library/CMakeFiles/Library.dir/src/Rent.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Rent.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/Rent.cpp -o CMakeFiles/Library.dir/src/Rent.cpp.s
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp -o CMakeFiles/Library.dir/src/Rent.cpp.s
 
 library/CMakeFiles/Library.dir/src/Space.cpp.o: library/CMakeFiles/Library.dir/flags.make
 library/CMakeFiles/Library.dir/src/Space.cpp.o: ../library/src/Space.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Library.dir/src/Space.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Space.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Space.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Library.dir/src/Space.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Space.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp
 
 library/CMakeFiles/Library.dir/src/Space.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Space.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/Space.cpp > CMakeFiles/Library.dir/src/Space.cpp.i
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp > CMakeFiles/Library.dir/src/Space.cpp.i
 
 library/CMakeFiles/Library.dir/src/Space.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Space.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/Space.cpp -o CMakeFiles/Library.dir/src/Space.cpp.s
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp -o CMakeFiles/Library.dir/src/Space.cpp.s
 
-library/CMakeFiles/Library.dir/include/Large.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/Large.cpp.o: ../library/include/Large.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Library.dir/include/Large.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/include/Large.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Large.cpp
+library/CMakeFiles/Library.dir/src/Large.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Large.cpp.o: ../library/src/Large.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object library/CMakeFiles/Library.dir/src/Large.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Large.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp
 
-library/CMakeFiles/Library.dir/include/Large.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/Large.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/include/Large.cpp > CMakeFiles/Library.dir/include/Large.cpp.i
+library/CMakeFiles/Library.dir/src/Large.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Large.cpp.i"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp > CMakeFiles/Library.dir/src/Large.cpp.i
 
-library/CMakeFiles/Library.dir/include/Large.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/Large.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/include/Large.cpp -o CMakeFiles/Library.dir/include/Large.cpp.s
+library/CMakeFiles/Library.dir/src/Large.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Large.cpp.s"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp -o CMakeFiles/Library.dir/src/Large.cpp.s
 
-library/CMakeFiles/Library.dir/include/Small.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/Small.cpp.o: ../library/include/Small.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object library/CMakeFiles/Library.dir/include/Small.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/include/Small.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Small.cpp
+library/CMakeFiles/Library.dir/src/Small.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Small.cpp.o: ../library/src/Small.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object library/CMakeFiles/Library.dir/src/Small.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Small.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp
 
-library/CMakeFiles/Library.dir/include/Small.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/Small.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/include/Small.cpp > CMakeFiles/Library.dir/include/Small.cpp.i
+library/CMakeFiles/Library.dir/src/Small.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Small.cpp.i"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp > CMakeFiles/Library.dir/src/Small.cpp.i
 
-library/CMakeFiles/Library.dir/include/Small.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/Small.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/include/Small.cpp -o CMakeFiles/Library.dir/include/Small.cpp.s
+library/CMakeFiles/Library.dir/src/Small.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Small.cpp.s"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp -o CMakeFiles/Library.dir/src/Small.cpp.s
 
-library/CMakeFiles/Library.dir/include/Container.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/Container.cpp.o: ../library/include/Container.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object library/CMakeFiles/Library.dir/include/Container.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/include/Container.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Container.cpp
+library/CMakeFiles/Library.dir/src/Container.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Container.cpp.o: ../library/src/Container.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object library/CMakeFiles/Library.dir/src/Container.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Container.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp
 
-library/CMakeFiles/Library.dir/include/Container.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/Container.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/include/Container.cpp > CMakeFiles/Library.dir/include/Container.cpp.i
+library/CMakeFiles/Library.dir/src/Container.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Container.cpp.i"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp > CMakeFiles/Library.dir/src/Container.cpp.i
 
-library/CMakeFiles/Library.dir/include/Container.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/Container.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/include/Container.cpp -o CMakeFiles/Library.dir/include/Container.cpp.s
+library/CMakeFiles/Library.dir/src/Container.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Container.cpp.s"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp -o CMakeFiles/Library.dir/src/Container.cpp.s
 
-library/CMakeFiles/Library.dir/include/Cutter.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/Cutter.cpp.o: ../library/include/Cutter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/include/Cutter.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/include/Cutter.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp
+library/CMakeFiles/Library.dir/src/Cutter.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Cutter.cpp.o: ../library/src/Cutter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object library/CMakeFiles/Library.dir/src/Cutter.cpp.o"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Cutter.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp
 
-library/CMakeFiles/Library.dir/include/Cutter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/Cutter.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp > CMakeFiles/Library.dir/include/Cutter.cpp.i
+library/CMakeFiles/Library.dir/src/Cutter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Cutter.cpp.i"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp > CMakeFiles/Library.dir/src/Cutter.cpp.i
 
-library/CMakeFiles/Library.dir/include/Cutter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/Cutter.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp -o CMakeFiles/Library.dir/include/Cutter.cpp.s
+library/CMakeFiles/Library.dir/src/Cutter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Cutter.cpp.s"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp -o CMakeFiles/Library.dir/src/Cutter.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -184,10 +184,10 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/FirstTime.cpp.o" \
 "CMakeFiles/Library.dir/src/Rent.cpp.o" \
 "CMakeFiles/Library.dir/src/Space.cpp.o" \
-"CMakeFiles/Library.dir/include/Large.cpp.o" \
-"CMakeFiles/Library.dir/include/Small.cpp.o" \
-"CMakeFiles/Library.dir/include/Container.cpp.o" \
-"CMakeFiles/Library.dir/include/Cutter.cpp.o"
+"CMakeFiles/Library.dir/src/Large.cpp.o" \
+"CMakeFiles/Library.dir/src/Small.cpp.o" \
+"CMakeFiles/Library.dir/src/Container.cpp.o" \
+"CMakeFiles/Library.dir/src/Cutter.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -197,15 +197,15 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/Regular.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/FirstTime.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/Rent.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/Space.cpp.o
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/Large.cpp.o
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/Small.cpp.o
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/Container.cpp.o
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/Cutter.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Large.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Small.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Container.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Cutter.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libLibrary.a"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX static library libLibrary.a"
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 library/CMakeFiles/Library.dir/build: library/libLibrary.a
@@ -213,10 +213,10 @@ library/CMakeFiles/Library.dir/build: library/libLibrary.a
 .PHONY : library/CMakeFiles/Library.dir/build
 
 library/CMakeFiles/Library.dir/clean:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/Library.dir/clean
 
 library/CMakeFiles/Library.dir/depend:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/CLionProjects/Proba2 /home/pobi/CLionProjects/Proba2/library /home/pobi/CLionProjects/Proba2/cmake-build-debug /home/pobi/CLionProjects/Proba2/cmake-build-debug/library /home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/Pulpit/ProjectPOBI /home/pobi/Pulpit/ProjectPOBI/library /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library /home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/Library.dir/depend
 

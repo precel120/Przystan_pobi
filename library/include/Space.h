@@ -6,6 +6,7 @@
 #define OOPPROJECT_SPACE_H
 #include <iostream>
 #include <sstream>
+#include <memory>
 using namespace std;
 
 class Space {

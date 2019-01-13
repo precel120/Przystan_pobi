@@ -1,4 +1,4 @@
-# Install script for directory: /home/pobi/CLionProjects/Proba2/program
+# Install script for directory: /home/pobi/Pulpit/ProjectPOBI/program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
