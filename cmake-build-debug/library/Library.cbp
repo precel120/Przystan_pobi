@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Library"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="check">
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library">
+				<Option output="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/Proba2/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Library/fast">
+				<Option output="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/Proba2/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test">
+				<Option output="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/Proba2/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Test/fast">
+				<Option output="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/CLionProjects/Proba2/cmake-build-debug/library"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/pobi/CLionProjects/Proba2/library/include"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Client.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientType.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Container.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Container.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Cutter.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/FirstTime.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Large.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Large.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Regular.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Rent.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Small.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Small.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Space.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Client.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Regular.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Rent.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Space.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/master.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\library\"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/program/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\program\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

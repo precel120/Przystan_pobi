@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../library/include/BazaTransportowa.h
+iostream
+-
+list
+-
+memory
+-
+Pojazd.h
+../library/include/Pojazd.h
+
+../library/include/Pojazd.h
+iostream
+-
+
+/home/pobi/CLionProjects/Proba2/library/src/BazaTransportowa.cpp
+BazaTransportowa.h
+/home/pobi/CLionProjects/Proba2/library/src/BazaTransportowa.h
+list
+-
+iostream
+-
+memory
+-
+
