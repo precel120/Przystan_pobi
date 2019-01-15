@@ -19,7 +19,6 @@ protected:
 public:
     Space(string id,int length, int width, int baseRentPrice);
     ~Space();
-    virtual string spaceInfo();
     virtual int actualRentalPrice();
     string getSpaceID();
 };

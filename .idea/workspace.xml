@@ -10,8 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77dc2501-7483-4a69-bf92-2dd0acc4ee53" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/library/include/Repository.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/Repository.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/library/src/Repository.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/Repository.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/Client.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/Client.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/Cutter.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/Cutter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/Large.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/Large.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/include/Space.h" beforeDir="false" afterPath="$PROJECT_DIR$/library/include/Space.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/Large.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/Large.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/Space.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/Space.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,47 +28,38 @@
     <session id="-132656408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="1" />
-          <entry key="h" value="4" />
+          <entry key="cpp" value="3" />
+          <entry key="h" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="5" />
+          <entry key="ObjectiveC" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="281" />
-          <entry key="h" value="19" />
+          <entry key="cpp" value="337" />
+          <entry key="h" value="47" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="ObjectiveC" value="300" />
+          <entry key="ObjectiveC" value="384" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/library/src/Repository.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -75,6 +70,9 @@
         <option value="$PROJECT_DIR$/library/include/ClientException.h" />
         <option value="$PROJECT_DIR$/library/include/Repository.h" />
         <option value="$PROJECT_DIR$/library/src/Repository.cpp" />
+        <option value="$PROJECT_DIR$/library/src/RentManager.cpp" />
+        <option value="$PROJECT_DIR$/library/include/Client.h" />
+        <option value="$PROJECT_DIR$/library/src/Client.cpp" />
       </list>
     </option>
   </component>
@@ -155,23 +153,19 @@
       <option name="presentableId" value="Default" />
       <updated>1547568225632</updated>
       <workItem from="1547568229558" duration="738000" />
+      <workItem from="1547579987589" duration="170000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="738000" />
+    <option name="totallyTimeSpent" value="908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="67" width="932" height="902" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24311927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2488532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="CMake" weight="0.329718" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -179,10 +173,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294271" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,8 +214,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/Repository.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="18" selection-end-column="1" />
+        <state relative-caret-position="374">
+          <caret line="22" column="11" lean-forward="true" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/Space.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/RentManager.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/Client.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/src/RentManager.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/Client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
         </state>
       </provider>
     </entry>

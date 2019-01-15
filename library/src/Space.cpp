@@ -14,11 +14,6 @@ Space::~Space() {}
 int Space::actualRentalPrice() {
     return baseRentPrice;
 }
-string Space::spaceInfo() {
-    stringstream all;
-    all<<length<<width<<baseRentPrice;
-    return all.str();
-}
 string Space::getSpaceID() {
     return id;
 }

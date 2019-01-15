@@ -37,7 +37,7 @@ public:
     string getAddress();
     void changeClientType(char type);
     string clientInfo();
-    int addRents();
+    void addRents();
     int countRents();
 };
 

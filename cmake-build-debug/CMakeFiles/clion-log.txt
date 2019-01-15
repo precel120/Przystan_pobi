@@ -1,7 +1,1 @@
-/snap/clion/58/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/pobi/CLionProjects/Proba2
--- Boost version: 1.65.1
--- Found the following Boost libraries:
---   unit_test_framework
--- Configuring done
--- Generating done
--- Build files have been written to: /home/pobi/CLionProjects/Proba2/cmake-build-debug
+Visual Studio not found at: C:\Program Files (x86)\Microsoft Visual Studio\2017\Community Configure
