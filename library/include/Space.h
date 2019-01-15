@@ -21,6 +21,7 @@ public:
     ~Space();
     virtual string spaceInfo();
     virtual int actualRentalPrice();
+    string getSpaceID();
 };
 
 

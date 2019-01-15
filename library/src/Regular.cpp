@@ -8,6 +8,6 @@ Regular::~Regular() {}
 double Regular::discount() {
     return 0.3;
 }
-int Regular::maxSpace() {
+int Regular::maxRents() {
     return 3;
 }

@@ -26,16 +26,19 @@ private:
     string lastName;
     string address;
     ClientType_ptr clienttype;
+    int numberRents=0;
 public:
     Client(string firstName,string lastName,string address);
     double discount();
-    int maxSpace();
+    int maxRents();
     boost::uuids::uuid getID();
     string getFirstName();
     string getLastName();
     string getAddress();
     void changeClientType(char type);
     string clientInfo();
+    int addRents();
+    int countRents();
 };
 
 

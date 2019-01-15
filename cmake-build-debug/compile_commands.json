@@ -61,8 +61,23 @@
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Repository.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Repository.cpp",
-  "file": "/home/pobi/CLionProjects/Proba2/library/include/Repository.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Repository.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/Repository.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SpaceManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp"
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",

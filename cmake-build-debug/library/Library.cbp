@@ -130,6 +130,9 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientException.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientManager.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientType.h">
 			<Option target="Library"/>
 		</Unit>
@@ -154,7 +157,7 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/RentException.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Repository.cpp">
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/RentManager.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Repository.h">
@@ -169,10 +172,16 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/SpaceException.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/SpaceManager.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Client.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/ClientException.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Container.cpp">
@@ -196,6 +205,12 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/RentException.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Repository.cpp">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Small.cpp">
 			<Option target="Library"/>
 		</Unit>
@@ -203,6 +218,9 @@
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/SpaceException.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp">

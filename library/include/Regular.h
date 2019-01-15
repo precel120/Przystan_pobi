@@ -11,7 +11,7 @@ class Regular:public ClientType {
 public:
     Regular();
     ~Regular();
-    int maxSpace();
+    int maxRents();
     double discount();
 };
 

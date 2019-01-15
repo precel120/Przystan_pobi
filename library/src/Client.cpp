@@ -45,13 +45,21 @@ switch(type) {
 }
 }
 
-int Client::maxSpace() {
-    return clienttype->maxSpace();
+int Client::maxRents() {
+    return clienttype->maxRents();
 }
 string Client::clientInfo() {
     stringstream all;
     all<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
     return all.str();
+}
+
+void Client::addRents() {
+    this->numberRents++;
+}
+
+int Client::countRents() {
+    return this->numberRents;
 }
 
 

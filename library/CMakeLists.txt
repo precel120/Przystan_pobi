@@ -22,7 +22,7 @@ set(SOURCE_FILES
         src/Container.cpp
         include/Container.h
         src/Cutter.cpp
-        include/Cutter.h src/RentException.cpp include/RentException.h src/SpaceException.cpp include/SpaceException.h src/ClientException.cpp include/ClientException.h src/Repository.cpp include/Repository.h)
+        include/Cutter.h src/RentException.cpp include/RentException.h src/SpaceException.cpp include/SpaceException.h src/ClientException.cpp include/ClientException.h src/Repository.cpp include/Repository.h src/SpaceManager.cpp include/SpaceManager.h src/ClientManager.cpp include/ClientManager.h src/RentManager.cpp include/RentManager.h)
 
 add_library(Library ${SOURCE_FILES})
 

@@ -169,33 +169,6 @@ Test/fast:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
-include/Repository.o: include/Repository.cpp.o
-
-.PHONY : include/Repository.o
-
-# target to build an object file
-include/Repository.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.o
-.PHONY : include/Repository.cpp.o
-
-include/Repository.i: include/Repository.cpp.i
-
-.PHONY : include/Repository.i
-
-# target to preprocess a source file
-include/Repository.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.i
-.PHONY : include/Repository.cpp.i
-
-include/Repository.s: include/Repository.cpp.s
-
-.PHONY : include/Repository.s
-
-# target to generate assembly for a file
-include/Repository.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.s
-.PHONY : include/Repository.cpp.s
-
 src/Client.o: src/Client.cpp.o
 
 .PHONY : src/Client.o
@@ -249,6 +222,33 @@ src/ClientException.s: src/ClientException.cpp.s
 src/ClientException.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.s
 .PHONY : src/ClientException.cpp.s
+
+src/ClientManager.o: src/ClientManager.cpp.o
+
+.PHONY : src/ClientManager.o
+
+# target to build an object file
+src/ClientManager.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
+.PHONY : src/ClientManager.cpp.o
+
+src/ClientManager.i: src/ClientManager.cpp.i
+
+.PHONY : src/ClientManager.i
+
+# target to preprocess a source file
+src/ClientManager.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.i
+.PHONY : src/ClientManager.cpp.i
+
+src/ClientManager.s: src/ClientManager.cpp.s
+
+.PHONY : src/ClientManager.s
+
+# target to generate assembly for a file
+src/ClientManager.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.s
+.PHONY : src/ClientManager.cpp.s
 
 src/Container.o: src/Container.cpp.o
 
@@ -439,6 +439,60 @@ src/RentException.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.s
 .PHONY : src/RentException.cpp.s
 
+src/RentManager.o: src/RentManager.cpp.o
+
+.PHONY : src/RentManager.o
+
+# target to build an object file
+src/RentManager.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.o
+.PHONY : src/RentManager.cpp.o
+
+src/RentManager.i: src/RentManager.cpp.i
+
+.PHONY : src/RentManager.i
+
+# target to preprocess a source file
+src/RentManager.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.i
+.PHONY : src/RentManager.cpp.i
+
+src/RentManager.s: src/RentManager.cpp.s
+
+.PHONY : src/RentManager.s
+
+# target to generate assembly for a file
+src/RentManager.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.s
+.PHONY : src/RentManager.cpp.s
+
+src/Repository.o: src/Repository.cpp.o
+
+.PHONY : src/Repository.o
+
+# target to build an object file
+src/Repository.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.o
+.PHONY : src/Repository.cpp.o
+
+src/Repository.i: src/Repository.cpp.i
+
+.PHONY : src/Repository.i
+
+# target to preprocess a source file
+src/Repository.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.i
+.PHONY : src/Repository.cpp.i
+
+src/Repository.s: src/Repository.cpp.s
+
+.PHONY : src/Repository.s
+
+# target to generate assembly for a file
+src/Repository.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.s
+.PHONY : src/Repository.cpp.s
+
 src/Small.o: src/Small.cpp.o
 
 .PHONY : src/Small.o
@@ -520,6 +574,33 @@ src/SpaceException.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.s
 .PHONY : src/SpaceException.cpp.s
 
+src/SpaceManager.o: src/SpaceManager.cpp.o
+
+.PHONY : src/SpaceManager.o
+
+# target to build an object file
+src/SpaceManager.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
+.PHONY : src/SpaceManager.cpp.o
+
+src/SpaceManager.i: src/SpaceManager.cpp.i
+
+.PHONY : src/SpaceManager.i
+
+# target to preprocess a source file
+src/SpaceManager.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.i
+.PHONY : src/SpaceManager.cpp.i
+
+src/SpaceManager.s: src/SpaceManager.cpp.s
+
+.PHONY : src/SpaceManager.s
+
+# target to generate assembly for a file
+src/SpaceManager.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.s
+.PHONY : src/SpaceManager.cpp.s
+
 test/PojazdTest.o: test/PojazdTest.cpp.o
 
 .PHONY : test/PojazdTest.o
@@ -586,15 +667,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... Library"
 	@echo "... Test"
-	@echo "... include/Repository.o"
-	@echo "... include/Repository.i"
-	@echo "... include/Repository.s"
 	@echo "... src/Client.o"
 	@echo "... src/Client.i"
 	@echo "... src/Client.s"
 	@echo "... src/ClientException.o"
 	@echo "... src/ClientException.i"
 	@echo "... src/ClientException.s"
+	@echo "... src/ClientManager.o"
+	@echo "... src/ClientManager.i"
+	@echo "... src/ClientManager.s"
 	@echo "... src/Container.o"
 	@echo "... src/Container.i"
 	@echo "... src/Container.s"
@@ -616,6 +697,12 @@ help:
 	@echo "... src/RentException.o"
 	@echo "... src/RentException.i"
 	@echo "... src/RentException.s"
+	@echo "... src/RentManager.o"
+	@echo "... src/RentManager.i"
+	@echo "... src/RentManager.s"
+	@echo "... src/Repository.o"
+	@echo "... src/Repository.i"
+	@echo "... src/Repository.s"
 	@echo "... src/Small.o"
 	@echo "... src/Small.i"
 	@echo "... src/Small.s"
@@ -625,6 +712,9 @@ help:
 	@echo "... src/SpaceException.o"
 	@echo "... src/SpaceException.i"
 	@echo "... src/SpaceException.s"
+	@echo "... src/SpaceManager.o"
+	@echo "... src/SpaceManager.i"
+	@echo "... src/SpaceManager.s"
 	@echo "... test/PojazdTest.o"
 	@echo "... test/PojazdTest.i"
 	@echo "... test/PojazdTest.s"

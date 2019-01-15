@@ -216,18 +216,57 @@ library/CMakeFiles/Library.dir/src/ClientException.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/ClientException.cpp.s"
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/ClientException.cpp -o CMakeFiles/Library.dir/src/ClientException.cpp.s
 
-library/CMakeFiles/Library.dir/include/Repository.cpp.o: library/CMakeFiles/Library.dir/flags.make
-library/CMakeFiles/Library.dir/include/Repository.cpp.o: ../library/include/Repository.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/include/Repository.cpp.o"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/include/Repository.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Repository.cpp
+library/CMakeFiles/Library.dir/src/Repository.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/Repository.cpp.o: ../library/src/Repository.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object library/CMakeFiles/Library.dir/src/Repository.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/Repository.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Repository.cpp
 
-library/CMakeFiles/Library.dir/include/Repository.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/include/Repository.cpp.i"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/include/Repository.cpp > CMakeFiles/Library.dir/include/Repository.cpp.i
+library/CMakeFiles/Library.dir/src/Repository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/Repository.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/Repository.cpp > CMakeFiles/Library.dir/src/Repository.cpp.i
 
-library/CMakeFiles/Library.dir/include/Repository.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/include/Repository.cpp.s"
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/include/Repository.cpp -o CMakeFiles/Library.dir/include/Repository.cpp.s
+library/CMakeFiles/Library.dir/src/Repository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/Repository.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/Repository.cpp -o CMakeFiles/Library.dir/src/Repository.cpp.s
+
+library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o: ../library/src/SpaceManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/SpaceManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp
+
+library/CMakeFiles/Library.dir/src/SpaceManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/SpaceManager.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp > CMakeFiles/Library.dir/src/SpaceManager.cpp.i
+
+library/CMakeFiles/Library.dir/src/SpaceManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/SpaceManager.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp -o CMakeFiles/Library.dir/src/SpaceManager.cpp.s
+
+library/CMakeFiles/Library.dir/src/ClientManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/ClientManager.cpp.o: ../library/src/ClientManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object library/CMakeFiles/Library.dir/src/ClientManager.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/ClientManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp
+
+library/CMakeFiles/Library.dir/src/ClientManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/ClientManager.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp > CMakeFiles/Library.dir/src/ClientManager.cpp.i
+
+library/CMakeFiles/Library.dir/src/ClientManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/ClientManager.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp -o CMakeFiles/Library.dir/src/ClientManager.cpp.s
+
+library/CMakeFiles/Library.dir/src/RentManager.cpp.o: library/CMakeFiles/Library.dir/flags.make
+library/CMakeFiles/Library.dir/src/RentManager.cpp.o: ../library/src/RentManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object library/CMakeFiles/Library.dir/src/RentManager.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Library.dir/src/RentManager.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp
+
+library/CMakeFiles/Library.dir/src/RentManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Library.dir/src/RentManager.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp > CMakeFiles/Library.dir/src/RentManager.cpp.i
+
+library/CMakeFiles/Library.dir/src/RentManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Library.dir/src/RentManager.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp -o CMakeFiles/Library.dir/src/RentManager.cpp.s
 
 # Object files for target Library
 Library_OBJECTS = \
@@ -243,7 +282,10 @@ Library_OBJECTS = \
 "CMakeFiles/Library.dir/src/RentException.cpp.o" \
 "CMakeFiles/Library.dir/src/SpaceException.cpp.o" \
 "CMakeFiles/Library.dir/src/ClientException.cpp.o" \
-"CMakeFiles/Library.dir/include/Repository.cpp.o"
+"CMakeFiles/Library.dir/src/Repository.cpp.o" \
+"CMakeFiles/Library.dir/src/SpaceManager.cpp.o" \
+"CMakeFiles/Library.dir/src/ClientManager.cpp.o" \
+"CMakeFiles/Library.dir/src/RentManager.cpp.o"
 
 # External object files for target Library
 Library_EXTERNAL_OBJECTS =
@@ -260,10 +302,13 @@ library/libLibrary.a: library/CMakeFiles/Library.dir/src/Cutter.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/RentException.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/SpaceException.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/src/ClientException.cpp.o
-library/libLibrary.a: library/CMakeFiles/Library.dir/include/Repository.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/Repository.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
+library/libLibrary.a: library/CMakeFiles/Library.dir/src/RentManager.cpp.o
 library/libLibrary.a: library/CMakeFiles/Library.dir/build.make
 library/libLibrary.a: library/CMakeFiles/Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libLibrary.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX static library libLibrary.a"
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/Library.dir/cmake_clean_target.cmake
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Library.dir/link.txt --verbose=$(VERBOSE)
 

@@ -19,3 +19,6 @@ string Space::spaceInfo() {
     all<<length<<width<<baseRentPrice;
     return all.str();
 }
+string Space::getSpaceID() {
+    return id;
+}

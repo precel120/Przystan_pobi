@@ -12,7 +12,7 @@ public:
     FirstTime();
     ~FirstTime();
     double discount();
-    int maxSpace();
+    int maxRents();
 };
 
 
