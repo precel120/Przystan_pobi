@@ -207,25 +207,19 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Client.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientException.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/ClientType.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Container.cpp">
-			<Option target="Library"/>
-		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Container.h">
-			<Option target="Library"/>
-		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Cutter.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/FirstTime.h">
-			<Option target="Library"/>
-		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Large.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Large.h">
@@ -237,7 +231,13 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Rent.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Small.cpp">
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/RentException.h">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Repository.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Repository.h">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Small.h">
@@ -246,10 +246,25 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/Space.h">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/include/SpaceException.h">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Client.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/ClientException.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Container.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Cutter.cpp">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Large.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Regular.cpp">
@@ -258,7 +273,16 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Rent.cpp">
 			<Option target="Library"/>
 		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/RentException.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Small.cpp">
+			<Option target="Library"/>
+		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/Space.cpp">
+			<Option target="Library"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/SpaceException.cpp">
 			<Option target="Library"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp">

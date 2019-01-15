@@ -6,6 +6,8 @@
 #define OOPPROJECT_SPACE_H
 #include <iostream>
 #include <sstream>
+#include <memory>
+#include "SpaceException.h"
 using namespace std;
 
 class Space {
@@ -18,7 +20,7 @@ public:
     Space(string id,int length, int width, int baseRentPrice);
     ~Space();
     virtual string spaceInfo();
-    virtual int getActualRentalPrice();
+    virtual int actualRentalPrice();
 };
 
 

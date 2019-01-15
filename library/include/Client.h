@@ -15,6 +15,7 @@ using namespace std;
 #include "Regular.h"
 #include "FirstTime.h"
 #include <sstream>
+#include "ClientException.h"
 
 typedef shared_ptr<ClientType> ClientType_ptr;
 

@@ -169,113 +169,32 @@ Test/fast:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
-include/Container.o: include/Container.cpp.o
+include/Repository.o: include/Repository.cpp.o
 
-.PHONY : include/Container.o
-
-# target to build an object file
-include/Container.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Container.cpp.o
-.PHONY : include/Container.cpp.o
-
-include/Container.i: include/Container.cpp.i
-
-.PHONY : include/Container.i
-
-# target to preprocess a source file
-include/Container.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Container.cpp.i
-.PHONY : include/Container.cpp.i
-
-include/Container.s: include/Container.cpp.s
-
-.PHONY : include/Container.s
-
-# target to generate assembly for a file
-include/Container.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Container.cpp.s
-.PHONY : include/Container.cpp.s
-
-include/Cutter.o: include/Cutter.cpp.o
-
-.PHONY : include/Cutter.o
+.PHONY : include/Repository.o
 
 # target to build an object file
-include/Cutter.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Cutter.cpp.o
-.PHONY : include/Cutter.cpp.o
+include/Repository.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.o
+.PHONY : include/Repository.cpp.o
 
-include/Cutter.i: include/Cutter.cpp.i
+include/Repository.i: include/Repository.cpp.i
 
-.PHONY : include/Cutter.i
-
-# target to preprocess a source file
-include/Cutter.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Cutter.cpp.i
-.PHONY : include/Cutter.cpp.i
-
-include/Cutter.s: include/Cutter.cpp.s
-
-.PHONY : include/Cutter.s
-
-# target to generate assembly for a file
-include/Cutter.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Cutter.cpp.s
-.PHONY : include/Cutter.cpp.s
-
-include/Large.o: include/Large.cpp.o
-
-.PHONY : include/Large.o
-
-# target to build an object file
-include/Large.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Large.cpp.o
-.PHONY : include/Large.cpp.o
-
-include/Large.i: include/Large.cpp.i
-
-.PHONY : include/Large.i
+.PHONY : include/Repository.i
 
 # target to preprocess a source file
-include/Large.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Large.cpp.i
-.PHONY : include/Large.cpp.i
+include/Repository.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.i
+.PHONY : include/Repository.cpp.i
 
-include/Large.s: include/Large.cpp.s
+include/Repository.s: include/Repository.cpp.s
 
-.PHONY : include/Large.s
-
-# target to generate assembly for a file
-include/Large.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Large.cpp.s
-.PHONY : include/Large.cpp.s
-
-include/Small.o: include/Small.cpp.o
-
-.PHONY : include/Small.o
-
-# target to build an object file
-include/Small.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Small.cpp.o
-.PHONY : include/Small.cpp.o
-
-include/Small.i: include/Small.cpp.i
-
-.PHONY : include/Small.i
-
-# target to preprocess a source file
-include/Small.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Small.cpp.i
-.PHONY : include/Small.cpp.i
-
-include/Small.s: include/Small.cpp.s
-
-.PHONY : include/Small.s
+.PHONY : include/Repository.s
 
 # target to generate assembly for a file
-include/Small.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Small.cpp.s
-.PHONY : include/Small.cpp.s
+include/Repository.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/include/Repository.cpp.s
+.PHONY : include/Repository.cpp.s
 
 src/Client.o: src/Client.cpp.o
 
@@ -304,6 +223,87 @@ src/Client.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.s
 .PHONY : src/Client.cpp.s
 
+src/ClientException.o: src/ClientException.cpp.o
+
+.PHONY : src/ClientException.o
+
+# target to build an object file
+src/ClientException.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.o
+.PHONY : src/ClientException.cpp.o
+
+src/ClientException.i: src/ClientException.cpp.i
+
+.PHONY : src/ClientException.i
+
+# target to preprocess a source file
+src/ClientException.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.i
+.PHONY : src/ClientException.cpp.i
+
+src/ClientException.s: src/ClientException.cpp.s
+
+.PHONY : src/ClientException.s
+
+# target to generate assembly for a file
+src/ClientException.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.s
+.PHONY : src/ClientException.cpp.s
+
+src/Container.o: src/Container.cpp.o
+
+.PHONY : src/Container.o
+
+# target to build an object file
+src/Container.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.o
+.PHONY : src/Container.cpp.o
+
+src/Container.i: src/Container.cpp.i
+
+.PHONY : src/Container.i
+
+# target to preprocess a source file
+src/Container.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.i
+.PHONY : src/Container.cpp.i
+
+src/Container.s: src/Container.cpp.s
+
+.PHONY : src/Container.s
+
+# target to generate assembly for a file
+src/Container.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.s
+.PHONY : src/Container.cpp.s
+
+src/Cutter.o: src/Cutter.cpp.o
+
+.PHONY : src/Cutter.o
+
+# target to build an object file
+src/Cutter.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.o
+.PHONY : src/Cutter.cpp.o
+
+src/Cutter.i: src/Cutter.cpp.i
+
+.PHONY : src/Cutter.i
+
+# target to preprocess a source file
+src/Cutter.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.i
+.PHONY : src/Cutter.cpp.i
+
+src/Cutter.s: src/Cutter.cpp.s
+
+.PHONY : src/Cutter.s
+
+# target to generate assembly for a file
+src/Cutter.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.s
+.PHONY : src/Cutter.cpp.s
+
 src/FirstTime.o: src/FirstTime.cpp.o
 
 .PHONY : src/FirstTime.o
@@ -330,6 +330,33 @@ src/FirstTime.s: src/FirstTime.cpp.s
 src/FirstTime.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.s
 .PHONY : src/FirstTime.cpp.s
+
+src/Large.o: src/Large.cpp.o
+
+.PHONY : src/Large.o
+
+# target to build an object file
+src/Large.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.o
+.PHONY : src/Large.cpp.o
+
+src/Large.i: src/Large.cpp.i
+
+.PHONY : src/Large.i
+
+# target to preprocess a source file
+src/Large.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.i
+.PHONY : src/Large.cpp.i
+
+src/Large.s: src/Large.cpp.s
+
+.PHONY : src/Large.s
+
+# target to generate assembly for a file
+src/Large.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.s
+.PHONY : src/Large.cpp.s
 
 src/Regular.o: src/Regular.cpp.o
 
@@ -385,6 +412,60 @@ src/Rent.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.s
 .PHONY : src/Rent.cpp.s
 
+src/RentException.o: src/RentException.cpp.o
+
+.PHONY : src/RentException.o
+
+# target to build an object file
+src/RentException.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.o
+.PHONY : src/RentException.cpp.o
+
+src/RentException.i: src/RentException.cpp.i
+
+.PHONY : src/RentException.i
+
+# target to preprocess a source file
+src/RentException.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.i
+.PHONY : src/RentException.cpp.i
+
+src/RentException.s: src/RentException.cpp.s
+
+.PHONY : src/RentException.s
+
+# target to generate assembly for a file
+src/RentException.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.s
+.PHONY : src/RentException.cpp.s
+
+src/Small.o: src/Small.cpp.o
+
+.PHONY : src/Small.o
+
+# target to build an object file
+src/Small.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.o
+.PHONY : src/Small.cpp.o
+
+src/Small.i: src/Small.cpp.i
+
+.PHONY : src/Small.i
+
+# target to preprocess a source file
+src/Small.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.i
+.PHONY : src/Small.cpp.i
+
+src/Small.s: src/Small.cpp.s
+
+.PHONY : src/Small.s
+
+# target to generate assembly for a file
+src/Small.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.s
+.PHONY : src/Small.cpp.s
+
 src/Space.o: src/Space.cpp.o
 
 .PHONY : src/Space.o
@@ -411,6 +492,33 @@ src/Space.s: src/Space.cpp.s
 src/Space.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.s
 .PHONY : src/Space.cpp.s
+
+src/SpaceException.o: src/SpaceException.cpp.o
+
+.PHONY : src/SpaceException.o
+
+# target to build an object file
+src/SpaceException.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.o
+.PHONY : src/SpaceException.cpp.o
+
+src/SpaceException.i: src/SpaceException.cpp.i
+
+.PHONY : src/SpaceException.i
+
+# target to preprocess a source file
+src/SpaceException.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.i
+.PHONY : src/SpaceException.cpp.i
+
+src/SpaceException.s: src/SpaceException.cpp.s
+
+.PHONY : src/SpaceException.s
+
+# target to generate assembly for a file
+src/SpaceException.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.s
+.PHONY : src/SpaceException.cpp.s
 
 test/PojazdTest.o: test/PojazdTest.cpp.o
 
@@ -478,33 +586,45 @@ help:
 	@echo "... edit_cache"
 	@echo "... Library"
 	@echo "... Test"
-	@echo "... include/Container.o"
-	@echo "... include/Container.i"
-	@echo "... include/Container.s"
-	@echo "... include/Cutter.o"
-	@echo "... include/Cutter.i"
-	@echo "... include/Cutter.s"
-	@echo "... include/Large.o"
-	@echo "... include/Large.i"
-	@echo "... include/Large.s"
-	@echo "... include/Small.o"
-	@echo "... include/Small.i"
-	@echo "... include/Small.s"
+	@echo "... include/Repository.o"
+	@echo "... include/Repository.i"
+	@echo "... include/Repository.s"
 	@echo "... src/Client.o"
 	@echo "... src/Client.i"
 	@echo "... src/Client.s"
+	@echo "... src/ClientException.o"
+	@echo "... src/ClientException.i"
+	@echo "... src/ClientException.s"
+	@echo "... src/Container.o"
+	@echo "... src/Container.i"
+	@echo "... src/Container.s"
+	@echo "... src/Cutter.o"
+	@echo "... src/Cutter.i"
+	@echo "... src/Cutter.s"
 	@echo "... src/FirstTime.o"
 	@echo "... src/FirstTime.i"
 	@echo "... src/FirstTime.s"
+	@echo "... src/Large.o"
+	@echo "... src/Large.i"
+	@echo "... src/Large.s"
 	@echo "... src/Regular.o"
 	@echo "... src/Regular.i"
 	@echo "... src/Regular.s"
 	@echo "... src/Rent.o"
 	@echo "... src/Rent.i"
 	@echo "... src/Rent.s"
+	@echo "... src/RentException.o"
+	@echo "... src/RentException.i"
+	@echo "... src/RentException.s"
+	@echo "... src/Small.o"
+	@echo "... src/Small.i"
+	@echo "... src/Small.s"
 	@echo "... src/Space.o"
 	@echo "... src/Space.i"
 	@echo "... src/Space.s"
+	@echo "... src/SpaceException.o"
+	@echo "... src/SpaceException.i"
+	@echo "... src/SpaceException.s"
 	@echo "... test/PojazdTest.o"
 	@echo "... test/PojazdTest.i"
 	@echo "... test/PojazdTest.s"

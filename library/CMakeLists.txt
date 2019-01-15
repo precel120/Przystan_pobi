@@ -4,7 +4,25 @@ project(Library)
 #set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
 set(SOURCE_FILES
-        src/Client.cpp include/Client.h include/ClientType.h src/Regular.cpp include/Regular.h src/FirstTime.cpp include/FirstTime.h src/Rent.cpp include/Rent.h src/Space.cpp include/Space.h src/Large.cpp include/Large.h src/Small.cpp include/Small.h src/Container.cpp include/Container.h src/Cutter.cpp include/Cutter.h)
+        src/Client.cpp
+        include/Client.h
+        include/ClientType.h
+        src/Regular.cpp
+        include/Regular.h
+        src/FirstTime.cpp
+        include/FirstTime.h
+        src/Rent.cpp
+        include/Rent.h
+        src/Space.cpp
+        include/Space.h
+        src/Large.cpp
+        include/Large.h
+        src/Small.cpp
+        include/Small.h
+        src/Container.cpp
+        include/Container.h
+        src/Cutter.cpp
+        include/Cutter.h src/RentException.cpp include/RentException.h src/SpaceException.cpp include/SpaceException.h src/ClientException.cpp include/ClientException.h src/Repository.cpp include/Repository.h)
 
 add_library(Library ${SOURCE_FILES})
 

@@ -7,3 +7,10 @@
 Large::Large(string id, int length,int width,int baseRentPrice, int weight):
 Space(id,length,width,baseRentPrice),
 weight(weight){}
+Large::~Large() {}
+int Large::getWeight() {
+    return weight;
+}
+int Large::actualRentalPrice() {
+    return Space::actualRentalPrice();
+}

@@ -13,6 +13,7 @@ public:
     Cutter(string id, int length, int width, int baseRentPrice,int weight);
     ~Cutter();
     int actualRentalPrice();
+    string spaceInfo();
 };
 
 

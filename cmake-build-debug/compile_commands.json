@@ -26,23 +26,43 @@
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Large.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Large.cpp",
-  "file": "/home/pobi/CLionProjects/Proba2/library/include/Large.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Large.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Large.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/Large.cpp"
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Small.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Small.cpp",
-  "file": "/home/pobi/CLionProjects/Proba2/library/include/Small.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Small.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Small.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/Small.cpp"
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Container.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Container.cpp",
-  "file": "/home/pobi/CLionProjects/Proba2/library/include/Container.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Container.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Container.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/Container.cpp"
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Cutter.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp",
-  "file": "/home/pobi/CLionProjects/Proba2/library/include/Cutter.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Cutter.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/Cutter.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/Cutter.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentException.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/RentException.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/RentException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SpaceException.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/SpaceException.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/SpaceException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientException.cpp.o -c /home/pobi/CLionProjects/Proba2/library/src/ClientException.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/src/ClientException.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/include/Repository.cpp.o -c /home/pobi/CLionProjects/Proba2/library/include/Repository.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/include/Repository.cpp"
 },
 {
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",

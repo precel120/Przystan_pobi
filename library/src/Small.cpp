@@ -6,5 +6,5 @@
 Small::Small(string id,int length,int width,int baseRentPrice):
 Space(id,length,width,baseRentPrice){}
 int Small::actualRentalPrice() {
-    return baseRentPrice;
+    return Space::actualRentalPrice();
 }

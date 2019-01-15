@@ -15,12 +15,16 @@
 #include "Client.h"
 #include <sstream>
 #include "Space.h"
+#include "ClientException.h"
+#include "SpaceException.h"
+#include "RentException.h"
 
 
 using namespace std;
 
 typedef shared_ptr<Client> Client_ptr;
 typedef shared_ptr<Space> Space_ptr;
+
 typedef boost::local_time::local_date_time time_ptr;
 typedef boost::local_time::time_zone_ptr TZone;
 typedef boost::posix_time::ptime PTime;
@@ -42,7 +46,9 @@ public:
     Space_ptr getSpace();
     Client_ptr getClient();
     int getRentPrice();
+    int rentDuration();
 };
 
+typedef shared_ptr<Rent> Rent_ptr;
 
 #endif //OOPPROJECT_RENT_H
