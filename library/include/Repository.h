@@ -23,15 +23,18 @@ protected:
     list<T> repoList;
 public:
     void create(T object){
-        if(find(object->getFirstName())== nullptr){
-            repoList.push_back(object);
-        }else throw invalid_argument("obiekt juz istnieje");
-    }
+        repoList.push_back(object);
+    };
     void remove(T object){
-        repoList.earase(find(repoList.begin(),repoList.end(),object));
-    }
-    T find(boost::uuids::uuid id);
-    T find(string name);
+        repoList.erase(std::find(repoList.begin(),repoList.end(),object));
+    };
+    T find(boost::uuids::uuid id){
+        for(auto it:repoList){
+            if(it->getID()==id){
+                return it;
+            }
+        }return nullptr;
+    };
     Repository<T>();
 };
 

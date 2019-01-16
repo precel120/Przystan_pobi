@@ -4,8 +4,8 @@
 
 #include "Cutter.h"
 
-Cutter::Cutter(string id, int length, int width, int baseRentPrice, int weight):
-Large(id,length,width,baseRentPrice,weight){}
+Cutter::Cutter(int length, int width, int baseRentPrice, int weight):
+Large(length,width,baseRentPrice,weight){}
 Cutter::~Cutter() {}
 int Cutter::actualRentalPrice() {
     if (weight>20000){

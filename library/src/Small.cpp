@@ -3,8 +3,8 @@
 //
 
 #include "Small.h"
-Small::Small(string id,int length,int width,int baseRentPrice):
-Space(id,length,width,baseRentPrice){}
+Small::Small(int length,int width,int baseRentPrice):
+Space(length,width,baseRentPrice){}
 int Small::actualRentalPrice() {
     return Space::actualRentalPrice();
 }

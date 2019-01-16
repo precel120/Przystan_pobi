@@ -25,6 +25,12 @@ FirstTime.h
 ../library/include/FirstTime.h
 sstream
 -
+ClientException.h
+../library/include/ClientException.h
+
+../library/include/ClientException.h
+iostream
+-
 
 ../library/include/ClientType.h
 
@@ -73,6 +79,16 @@ sstream
 -
 Space.h
 ../library/include/Space.h
+ClientException.h
+../library/include/ClientException.h
+SpaceException.h
+../library/include/SpaceException.h
+RentException.h
+../library/include/RentException.h
+
+../library/include/RentException.h
+iostream
+-
 
 ../library/include/Small.h
 Space.h
@@ -87,18 +103,30 @@ sstream
 -
 memory
 -
+SpaceException.h
+../library/include/SpaceException.h
+boost/uuid/uuid_io.hpp
+-
+boost/uuid/uuid.hpp
+-
+boost/uuid/random_generator.hpp
+-
 
-/home/pobi/Pulpit/ProjectPOBI/library/test/PojazdTest.cpp
+../library/include/SpaceException.h
+iostream
+-
+
+/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp
 boost/test/unit_test.hpp
 -
 Client.h
-/home/pobi/Pulpit/ProjectPOBI/library/test/Client.h
+/home/pobi/CLionProjects/Proba2/library/test/Client.h
 Rent.h
-/home/pobi/Pulpit/ProjectPOBI/library/test/Rent.h
+/home/pobi/CLionProjects/Proba2/library/test/Rent.h
 Container.h
-/home/pobi/Pulpit/ProjectPOBI/library/test/Container.h
+/home/pobi/CLionProjects/Proba2/library/test/Container.h
 Cutter.h
-/home/pobi/Pulpit/ProjectPOBI/library/test/Cutter.h
+/home/pobi/CLionProjects/Proba2/library/test/Cutter.h
 Small.h
-/home/pobi/Pulpit/ProjectPOBI/library/test/Small.h
+/home/pobi/CLionProjects/Proba2/library/test/Small.h
 

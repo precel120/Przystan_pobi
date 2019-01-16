@@ -11,7 +11,7 @@ using namespace std;
 
 class Container: public Large {
 public:
-    Container(string id, int length,int width, int actualRentalPrice,int weight);
+    Container(int length,int width, int actualRentalPrice,int weight);
     ~Container();
     int actualRentalPrice();
 };

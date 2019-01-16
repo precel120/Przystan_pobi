@@ -5,7 +5,7 @@
 #include "RentManager.h"
 
 void RentManager::rent(Space_ptr space, Client_ptr client) {
-    if(current_rents.find(space->getSpaceID())!= nullptr){
+    if(current_rents.find(space->getID())!= nullptr){
         throw RentException("miejsce jest juz wypozyczone");
     }else if(client->maxRents()<client->countRents()){
         throw RentException("klient przekroczyl liczbe wypozyczen");

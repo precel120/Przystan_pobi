@@ -15,7 +15,7 @@ class Large: public Space {
 protected:
     int weight;
 public:
-    Large(string id,int length,int width,int baseRentPrice,int weight);
+    Large(int length,int width,int baseRentPrice,int weight);
     ~Large();
     int actualRentalPrice();
 };

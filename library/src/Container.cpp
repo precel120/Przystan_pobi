@@ -4,8 +4,8 @@
 
 #include "Container.h"
 
-Container::Container(string id, int length, int width, int baseRentalPrice, int weight):
-Large(id,length,width,baseRentalPrice,weight){}
+Container::Container(int length, int width, int baseRentalPrice, int weight):
+Large(length,width,baseRentalPrice,weight){}
 Container::~Container() {}
 int Container::actualRentalPrice() {
     if(weight>120000){

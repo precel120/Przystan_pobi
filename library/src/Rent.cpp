@@ -23,7 +23,7 @@ boost::uuids::uuid Rent::getID() {
 
 string Rent::rentInfo() {
 stringstream all;
-all<<id<<begin<<end<<space->spaceInfo()<<client->clientInfo();
+all<<id<<begin<<end<<client->clientInfo();
 return all.str();
 }
 
