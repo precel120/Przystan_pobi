@@ -11,3 +11,6 @@ Large::~Large() {}
 int Large::actualRentalPrice() {
     return Space::actualRentalPrice();
 }
+string Large::spaceInfo() {
+  return Space::spaceInfo();
+}

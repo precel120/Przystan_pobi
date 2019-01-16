@@ -116,7 +116,7 @@ boost/uuid/random_generator.hpp
 iostream
 -
 
-/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp
+/home/pobi/CLionProjects/Proba2/library/test/ClientTest.cpp
 boost/test/unit_test.hpp
 -
 Client.h

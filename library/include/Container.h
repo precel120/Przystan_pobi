@@ -12,7 +12,8 @@ using namespace std;
 class Container: public Large {
 public:
     Container(int length,int width, int actualRentalPrice,int weight);
-    ~Container();
+    virtual ~Container();
+    string spaceInfo();
     int actualRentalPrice();
 };
 

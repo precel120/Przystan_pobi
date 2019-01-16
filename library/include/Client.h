@@ -29,6 +29,7 @@ private:
     int numberRents=0;
 public:
     Client(string firstName,string lastName,string address);
+    virtual ~Client();
     double discount();
     int maxRents();
     boost::uuids::uuid getID();

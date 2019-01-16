@@ -16,7 +16,8 @@ protected:
     int weight;
 public:
     Large(int length,int width,int baseRentPrice,int weight);
-    ~Large();
+    virtual ~Large();
+    string spaceInfo();
     int actualRentalPrice();
 };
 

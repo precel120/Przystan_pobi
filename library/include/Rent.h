@@ -38,7 +38,7 @@ class Rent {
     time_ptr end=time_ptr(PTime(), TZone());
 public:
     Rent(Client_ptr client,Space_ptr space);
-    ~Rent();
+    virtual ~Rent();
     string rentInfo();
     boost::uuids::uuid getID();
     time_ptr getBegin();

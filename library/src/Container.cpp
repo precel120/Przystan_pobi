@@ -16,3 +16,9 @@ int Container::actualRentalPrice() {
         return Large::actualRentalPrice()*22;
     }else throw SpaceException("zla waga statku");
 }
+
+string Container::spaceInfo() {
+    stringstream all;
+    all<<Large::spaceInfo()<<weight;
+    return all.str();
+}

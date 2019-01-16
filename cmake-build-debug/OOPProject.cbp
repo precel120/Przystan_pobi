@@ -303,7 +303,10 @@
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/PojazdTest.cpp">
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/ClientTest.cpp">
+			<Option target="Test"/>
+		</Unit>
+		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/RepoTest.cpp">
 			<Option target="Test"/>
 		</Unit>
 		<Unit filename="/home/pobi/CLionProjects/Proba2/library/test/master.cpp">

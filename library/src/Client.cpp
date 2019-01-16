@@ -11,6 +11,7 @@ Client::Client(string firstName, string lastName, string address) {
     id = boost::uuids::random_generator()();
     clienttype = ClientType_ptr(new FirstTime());
 }
+Client::~Client() {}
 
 boost::uuids::uuid Client::getID() {
     return id;

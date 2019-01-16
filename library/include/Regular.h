@@ -10,7 +10,7 @@
 class Regular:public ClientType {
 public:
     Regular();
-    ~Regular();
+    virtual ~Regular();
     int maxRents();
     double discount();
 };

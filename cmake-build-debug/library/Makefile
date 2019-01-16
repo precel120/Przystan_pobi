@@ -601,32 +601,59 @@ src/SpaceManager.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.s
 .PHONY : src/SpaceManager.cpp.s
 
-test/PojazdTest.o: test/PojazdTest.cpp.o
+test/ClientTest.o: test/ClientTest.cpp.o
 
-.PHONY : test/PojazdTest.o
+.PHONY : test/ClientTest.o
 
 # target to build an object file
-test/PojazdTest.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/PojazdTest.cpp.o
-.PHONY : test/PojazdTest.cpp.o
+test/ClientTest.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+.PHONY : test/ClientTest.cpp.o
 
-test/PojazdTest.i: test/PojazdTest.cpp.i
+test/ClientTest.i: test/ClientTest.cpp.i
 
-.PHONY : test/PojazdTest.i
+.PHONY : test/ClientTest.i
 
 # target to preprocess a source file
-test/PojazdTest.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/PojazdTest.cpp.i
-.PHONY : test/PojazdTest.cpp.i
+test/ClientTest.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.i
+.PHONY : test/ClientTest.cpp.i
 
-test/PojazdTest.s: test/PojazdTest.cpp.s
+test/ClientTest.s: test/ClientTest.cpp.s
 
-.PHONY : test/PojazdTest.s
+.PHONY : test/ClientTest.s
 
 # target to generate assembly for a file
-test/PojazdTest.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/PojazdTest.cpp.s
-.PHONY : test/PojazdTest.cpp.s
+test/ClientTest.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
+.PHONY : test/ClientTest.cpp.s
+
+test/RepoTest.o: test/RepoTest.cpp.o
+
+.PHONY : test/RepoTest.o
+
+# target to build an object file
+test/RepoTest.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
+.PHONY : test/RepoTest.cpp.o
+
+test/RepoTest.i: test/RepoTest.cpp.i
+
+.PHONY : test/RepoTest.i
+
+# target to preprocess a source file
+test/RepoTest.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.i
+.PHONY : test/RepoTest.cpp.i
+
+test/RepoTest.s: test/RepoTest.cpp.s
+
+.PHONY : test/RepoTest.s
+
+# target to generate assembly for a file
+test/RepoTest.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.s
+.PHONY : test/RepoTest.cpp.s
 
 test/master.o: test/master.cpp.o
 
@@ -715,9 +742,12 @@ help:
 	@echo "... src/SpaceManager.o"
 	@echo "... src/SpaceManager.i"
 	@echo "... src/SpaceManager.s"
-	@echo "... test/PojazdTest.o"
-	@echo "... test/PojazdTest.i"
-	@echo "... test/PojazdTest.s"
+	@echo "... test/ClientTest.o"
+	@echo "... test/ClientTest.i"
+	@echo "... test/ClientTest.s"
+	@echo "... test/RepoTest.o"
+	@echo "... test/RepoTest.i"
+	@echo "... test/RepoTest.s"
 	@echo "... test/master.o"
 	@echo "... test/master.i"
 	@echo "... test/master.s"

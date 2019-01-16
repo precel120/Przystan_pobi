@@ -11,7 +11,8 @@ using namespace std;
 class Cutter:public Large {
 public:
     Cutter(int length, int width, int baseRentPrice,int weight);
-    ~Cutter();
+    virtual ~Cutter();
+    string spaceInfo();
     int actualRentalPrice();
 };
 
