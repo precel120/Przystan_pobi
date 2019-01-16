@@ -58,6 +58,10 @@ void Client::addRents() {
     this->numberRents++;
 }
 
+void Client::remRents(){
+    this->numberRents--;
+}
+
 int Client::countRents() {
     return this->numberRents;
 }

@@ -38,6 +38,7 @@ public:
     void changeClientType(char type);
     string clientInfo();
     void addRents();
+    void remRents();
     int countRents();
 };
 

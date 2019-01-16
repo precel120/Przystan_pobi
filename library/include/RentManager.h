@@ -13,7 +13,7 @@ Repository<Rent_ptr> current_rents;
 Repository<Rent_ptr> archived_rents;
 public:
     void rent(Space_ptr space,Client_ptr client);
-    void endRent(Space_ptr space);
+    void endRent(Rent_ptr rent);
 };
 
 

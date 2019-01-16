@@ -16,12 +16,13 @@ void RentManager::rent(Space_ptr space, Client_ptr client) {
     }
 }
 
-void RentManager::endRent(Space_ptr space) {
-    if(current_rents.find(space->getSpaceID()) == nullptr){
-        throw RentException("miejsce nie zostalo wypozyczone");
+void RentManager::endRent(Rent_ptr rent) {
+    if(current_rents.find(rent->getID()) == nullptr){
+        throw RentException("wypozyczenie nie istnieje");
     }else{
-        Rent_ptr ptr = current_rents.find(space->getSpaceID());
+        Rent_ptr ptr = current_rents.find(rent->getID());
         current_rents.remove(ptr);
         archived_rents.create(ptr);
+        ptr->getClient()->remRents();
     }
 }
