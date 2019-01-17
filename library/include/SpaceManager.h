@@ -14,6 +14,7 @@ class SpaceManager {
 public:
     void add(Space_ptr space);
     void remove(Space_ptr space);
+    int checkSize(char which);
 };
 
 

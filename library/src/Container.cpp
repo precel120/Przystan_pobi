@@ -9,16 +9,16 @@ Large(length,width,baseRentalPrice,weight){}
 Container::~Container() {}
 int Container::actualRentalPrice() {
     if(weight>120000){
-        return Large::actualRentalPrice()*40;
+        return baseRentPrice*40;
     }else if(90000 < weight && weight <= 120000){
-        return Large::actualRentalPrice()*30;
+        return baseRentPrice*30;
     }else if(weight>0){
-        return Large::actualRentalPrice()*22;
+        return baseRentPrice*22;
     }else throw SpaceException("zla waga statku");
 }
 
-string Container::spaceInfo() {
+string Container::getInfo() {
     stringstream all;
-    all<<Large::spaceInfo()<<weight;
+    all<<" "<<Space::getID()<<" "<<length<<" "<<width<<" "<<actualRentalPrice()<<" "<<weight;
     return all.str();
 }

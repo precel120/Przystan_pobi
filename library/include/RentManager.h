@@ -12,8 +12,9 @@ class RentManager {
 Repository<Rent_ptr> current_rents;
 Repository<Rent_ptr> archived_rents;
 public:
-    void rent(Space_ptr space,Client_ptr client);
+    void rent(Rent_ptr rent);
     void endRent(Rent_ptr rent);
+    int checkSize(char a);
 };
 
 

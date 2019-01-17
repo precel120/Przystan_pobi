@@ -12,6 +12,7 @@
 #include "Rent.h"
 #include "Space.h"
 #include "Client.h"
+#include <sstream>
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_io.hpp>
 
@@ -35,7 +36,10 @@ public:
             }
         }return nullptr;
     };
-    Repository<T>();
+    Repository<T>(){};
+    int checkSize(){
+        return repoList.size();
+    };
 };
 
 

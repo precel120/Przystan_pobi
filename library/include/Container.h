@@ -13,7 +13,7 @@ class Container: public Large {
 public:
     Container(int length,int width, int actualRentalPrice,int weight);
     virtual ~Container();
-    string spaceInfo();
+    string getInfo();
     int actualRentalPrice();
 };
 

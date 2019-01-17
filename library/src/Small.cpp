@@ -7,10 +7,10 @@ Small::Small(int length,int width,int baseRentPrice):
 Space(length,width,baseRentPrice){}
 Small::~Small() {}
 int Small::actualRentalPrice() {
-    return Space::actualRentalPrice();
+    return baseRentPrice;
 }
-string Small::spaceInfo() {
+string Small::getInfo() {
     stringstream all;
-    all<<Space::getID()<<" "<<length<<" "<<width<<" "<<baseRentPrice;
+    all<<" "<<Space::getID()<<" "<<length<<" "<<width<<" "<<baseRentPrice;
     return all.str();
 }

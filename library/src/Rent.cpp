@@ -4,7 +4,7 @@
 
 #include "Rent.h"
 
-Rent::Rent(Client_ptr client, Space_ptr space) {
+Rent::Rent(Space_ptr space,Client_ptr client) {
     if(client== nullptr){
         throw ClientException("klient jest pusty");
     }
@@ -14,21 +14,27 @@ Rent::Rent(Client_ptr client, Space_ptr space) {
         this->client = client;
         this->space = space;
         id = boost::uuids::random_generator()();
+        this->begin=boost::posix_time::second_clock::local_time();
     }
 }
+Rent::~Rent() {}
 
 boost::uuids::uuid Rent::getID() {
     return id;
 }
 
-string Rent::rentInfo() {
+string Rent::getInfo() {
 stringstream all;
-all<<id<<begin<<end<<client->clientInfo();
+all<<id<<" "<<begin<<" "<<end<<" "<<client->getInfo()<<" "<<space->getInfo()<<" ";
 return all.str();
 }
 
 time_ptr Rent::getBegin() {
     return begin;
+}
+
+void Rent::finishRent(){
+    end=boost::posix_time::second_clock::local_time();
 }
 
 time_ptr Rent::getEnd() {

@@ -22,8 +22,8 @@ protected:
 public:
     Space(int length, int width, int baseRentPrice);
     virtual ~Space();
-    virtual string spaceInfo();
-    virtual int actualRentalPrice();
+    virtual string getInfo()=0;
+    virtual int actualRentalPrice()=0;
     boost::uuids::uuid getID();
 };
 

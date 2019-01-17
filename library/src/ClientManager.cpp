@@ -15,3 +15,7 @@ void ClientManager::remove(Client_ptr client) {
         clients.remove(client);
     }else throw ClientException("klient nie istnieje");
 }
+
+int ClientManager::checkSize() {
+    return clients.checkSize();
+}

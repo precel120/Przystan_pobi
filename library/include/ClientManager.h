@@ -7,6 +7,7 @@
 
 #include "ClientException.h"
 #include "Repository.h"
+#include "list"
 #include <boost/uuid/uuid.hpp>
 #include <boost/uuid/uuid_io.hpp>
 
@@ -15,6 +16,7 @@ Repository<Client_ptr> clients;
 public:
     void add(Client_ptr client);
     void remove(Client_ptr client);
+    int checkSize();
 };
 
 

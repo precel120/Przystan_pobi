@@ -16,3 +16,9 @@ void SpaceManager::remove(Space_ptr space) {
         available_spaces.create(space);
     }else throw SpaceException("miejsce nie jest zajete");
 }
+
+int SpaceManager::checkSize(char which) {
+    if(which=='a')  return available_spaces.checkSize();
+    else if (which=='t')return taken_spaces.checkSize();
+    else throw SpaceException("bledny typ miejsca");
+}

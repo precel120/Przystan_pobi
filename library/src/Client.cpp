@@ -49,7 +49,7 @@ switch(type) {
 int Client::maxRents() {
     return clienttype->maxRents();
 }
-string Client::clientInfo() {
+string Client::getInfo() {
     stringstream all;
     all<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
     return all.str();
