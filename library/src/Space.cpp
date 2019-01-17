@@ -4,11 +4,9 @@
 
 #include "Space.h"
 
-Space::Space(int length, int width,int baseRentPrice) {
-    id= boost::uuids::random_generator()();;
-    this->length=length;
-    this->width=width;
-    this->baseRentPrice=baseRentPrice;
+Space::Space(int length, int width,int baseRentPrice):
+length(length),width(width),baseRentPrice(baseRentPrice){
+    id= boost::uuids::random_generator()();
 }
 Space::~Space() {}
 

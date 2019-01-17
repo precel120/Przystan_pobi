@@ -51,10 +51,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pobi/CLionProjects/Proba2
+CMAKE_SOURCE_DIR = /home/pobi/Pulpit/Nowy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pobi/CLionProjects/Proba2/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pobi/Pulpit/Nowy/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -94,14 +94,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles /home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/progress.marks
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles 0
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /home/pobi/Pulpit/Nowy/cmake-build-debug/CMakeFiles /home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/progress.marks
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pobi/Pulpit/Nowy/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/clean
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/clean
 .PHONY : clean
 
 # The main clean target
@@ -111,22 +111,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 library/CMakeFiles/check.dir/rule:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/check.dir/rule
 .PHONY : library/CMakeFiles/check.dir/rule
 
 # Convenience name for target.
@@ -136,12 +136,12 @@ check: library/CMakeFiles/check.dir/rule
 
 # fast build rule for target.
 check/fast:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/check.dir/build.make library/CMakeFiles/check.dir/build
 .PHONY : check/fast
 
 # Convenience name for target.
 library/CMakeFiles/Library.dir/rule:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/rule
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Library.dir/rule
 .PHONY : library/CMakeFiles/Library.dir/rule
 
 # Convenience name for target.
@@ -151,12 +151,12 @@ Library: library/CMakeFiles/Library.dir/rule
 
 # fast build rule for target.
 Library/fast:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/build
 .PHONY : Library/fast
 
 # Convenience name for target.
 library/CMakeFiles/Test.dir/rule:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Test.dir/rule
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/Test.dir/rule
 .PHONY : library/CMakeFiles/Test.dir/rule
 
 # Convenience name for target.
@@ -166,7 +166,7 @@ Test: library/CMakeFiles/Test.dir/rule
 
 # fast build rule for target.
 Test/fast:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/build
 .PHONY : Test/fast
 
 src/Client.o: src/Client.cpp.o
@@ -175,7 +175,7 @@ src/Client.o: src/Client.cpp.o
 
 # target to build an object file
 src/Client.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.o
 .PHONY : src/Client.cpp.o
 
 src/Client.i: src/Client.cpp.i
@@ -184,7 +184,7 @@ src/Client.i: src/Client.cpp.i
 
 # target to preprocess a source file
 src/Client.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.i
 .PHONY : src/Client.cpp.i
 
 src/Client.s: src/Client.cpp.s
@@ -193,7 +193,7 @@ src/Client.s: src/Client.cpp.s
 
 # target to generate assembly for a file
 src/Client.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Client.cpp.s
 .PHONY : src/Client.cpp.s
 
 src/ClientException.o: src/ClientException.cpp.o
@@ -202,7 +202,7 @@ src/ClientException.o: src/ClientException.cpp.o
 
 # target to build an object file
 src/ClientException.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.o
 .PHONY : src/ClientException.cpp.o
 
 src/ClientException.i: src/ClientException.cpp.i
@@ -211,7 +211,7 @@ src/ClientException.i: src/ClientException.cpp.i
 
 # target to preprocess a source file
 src/ClientException.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.i
 .PHONY : src/ClientException.cpp.i
 
 src/ClientException.s: src/ClientException.cpp.s
@@ -220,7 +220,7 @@ src/ClientException.s: src/ClientException.cpp.s
 
 # target to generate assembly for a file
 src/ClientException.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientException.cpp.s
 .PHONY : src/ClientException.cpp.s
 
 src/ClientManager.o: src/ClientManager.cpp.o
@@ -229,7 +229,7 @@ src/ClientManager.o: src/ClientManager.cpp.o
 
 # target to build an object file
 src/ClientManager.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
 .PHONY : src/ClientManager.cpp.o
 
 src/ClientManager.i: src/ClientManager.cpp.i
@@ -238,7 +238,7 @@ src/ClientManager.i: src/ClientManager.cpp.i
 
 # target to preprocess a source file
 src/ClientManager.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.i
 .PHONY : src/ClientManager.cpp.i
 
 src/ClientManager.s: src/ClientManager.cpp.s
@@ -247,7 +247,7 @@ src/ClientManager.s: src/ClientManager.cpp.s
 
 # target to generate assembly for a file
 src/ClientManager.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/ClientManager.cpp.s
 .PHONY : src/ClientManager.cpp.s
 
 src/Container.o: src/Container.cpp.o
@@ -256,7 +256,7 @@ src/Container.o: src/Container.cpp.o
 
 # target to build an object file
 src/Container.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.o
 .PHONY : src/Container.cpp.o
 
 src/Container.i: src/Container.cpp.i
@@ -265,7 +265,7 @@ src/Container.i: src/Container.cpp.i
 
 # target to preprocess a source file
 src/Container.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.i
 .PHONY : src/Container.cpp.i
 
 src/Container.s: src/Container.cpp.s
@@ -274,7 +274,7 @@ src/Container.s: src/Container.cpp.s
 
 # target to generate assembly for a file
 src/Container.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Container.cpp.s
 .PHONY : src/Container.cpp.s
 
 src/Cutter.o: src/Cutter.cpp.o
@@ -283,7 +283,7 @@ src/Cutter.o: src/Cutter.cpp.o
 
 # target to build an object file
 src/Cutter.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.o
 .PHONY : src/Cutter.cpp.o
 
 src/Cutter.i: src/Cutter.cpp.i
@@ -292,7 +292,7 @@ src/Cutter.i: src/Cutter.cpp.i
 
 # target to preprocess a source file
 src/Cutter.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.i
 .PHONY : src/Cutter.cpp.i
 
 src/Cutter.s: src/Cutter.cpp.s
@@ -301,7 +301,7 @@ src/Cutter.s: src/Cutter.cpp.s
 
 # target to generate assembly for a file
 src/Cutter.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Cutter.cpp.s
 .PHONY : src/Cutter.cpp.s
 
 src/FirstTime.o: src/FirstTime.cpp.o
@@ -310,7 +310,7 @@ src/FirstTime.o: src/FirstTime.cpp.o
 
 # target to build an object file
 src/FirstTime.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.o
 .PHONY : src/FirstTime.cpp.o
 
 src/FirstTime.i: src/FirstTime.cpp.i
@@ -319,7 +319,7 @@ src/FirstTime.i: src/FirstTime.cpp.i
 
 # target to preprocess a source file
 src/FirstTime.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.i
 .PHONY : src/FirstTime.cpp.i
 
 src/FirstTime.s: src/FirstTime.cpp.s
@@ -328,7 +328,7 @@ src/FirstTime.s: src/FirstTime.cpp.s
 
 # target to generate assembly for a file
 src/FirstTime.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/FirstTime.cpp.s
 .PHONY : src/FirstTime.cpp.s
 
 src/Large.o: src/Large.cpp.o
@@ -337,7 +337,7 @@ src/Large.o: src/Large.cpp.o
 
 # target to build an object file
 src/Large.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.o
 .PHONY : src/Large.cpp.o
 
 src/Large.i: src/Large.cpp.i
@@ -346,7 +346,7 @@ src/Large.i: src/Large.cpp.i
 
 # target to preprocess a source file
 src/Large.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.i
 .PHONY : src/Large.cpp.i
 
 src/Large.s: src/Large.cpp.s
@@ -355,7 +355,7 @@ src/Large.s: src/Large.cpp.s
 
 # target to generate assembly for a file
 src/Large.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Large.cpp.s
 .PHONY : src/Large.cpp.s
 
 src/Regular.o: src/Regular.cpp.o
@@ -364,7 +364,7 @@ src/Regular.o: src/Regular.cpp.o
 
 # target to build an object file
 src/Regular.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.o
 .PHONY : src/Regular.cpp.o
 
 src/Regular.i: src/Regular.cpp.i
@@ -373,7 +373,7 @@ src/Regular.i: src/Regular.cpp.i
 
 # target to preprocess a source file
 src/Regular.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.i
 .PHONY : src/Regular.cpp.i
 
 src/Regular.s: src/Regular.cpp.s
@@ -382,7 +382,7 @@ src/Regular.s: src/Regular.cpp.s
 
 # target to generate assembly for a file
 src/Regular.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Regular.cpp.s
 .PHONY : src/Regular.cpp.s
 
 src/Rent.o: src/Rent.cpp.o
@@ -391,7 +391,7 @@ src/Rent.o: src/Rent.cpp.o
 
 # target to build an object file
 src/Rent.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.o
 .PHONY : src/Rent.cpp.o
 
 src/Rent.i: src/Rent.cpp.i
@@ -400,7 +400,7 @@ src/Rent.i: src/Rent.cpp.i
 
 # target to preprocess a source file
 src/Rent.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.i
 .PHONY : src/Rent.cpp.i
 
 src/Rent.s: src/Rent.cpp.s
@@ -409,7 +409,7 @@ src/Rent.s: src/Rent.cpp.s
 
 # target to generate assembly for a file
 src/Rent.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Rent.cpp.s
 .PHONY : src/Rent.cpp.s
 
 src/RentException.o: src/RentException.cpp.o
@@ -418,7 +418,7 @@ src/RentException.o: src/RentException.cpp.o
 
 # target to build an object file
 src/RentException.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.o
 .PHONY : src/RentException.cpp.o
 
 src/RentException.i: src/RentException.cpp.i
@@ -427,7 +427,7 @@ src/RentException.i: src/RentException.cpp.i
 
 # target to preprocess a source file
 src/RentException.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.i
 .PHONY : src/RentException.cpp.i
 
 src/RentException.s: src/RentException.cpp.s
@@ -436,7 +436,7 @@ src/RentException.s: src/RentException.cpp.s
 
 # target to generate assembly for a file
 src/RentException.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentException.cpp.s
 .PHONY : src/RentException.cpp.s
 
 src/RentManager.o: src/RentManager.cpp.o
@@ -445,7 +445,7 @@ src/RentManager.o: src/RentManager.cpp.o
 
 # target to build an object file
 src/RentManager.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.o
 .PHONY : src/RentManager.cpp.o
 
 src/RentManager.i: src/RentManager.cpp.i
@@ -454,7 +454,7 @@ src/RentManager.i: src/RentManager.cpp.i
 
 # target to preprocess a source file
 src/RentManager.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.i
 .PHONY : src/RentManager.cpp.i
 
 src/RentManager.s: src/RentManager.cpp.s
@@ -463,7 +463,7 @@ src/RentManager.s: src/RentManager.cpp.s
 
 # target to generate assembly for a file
 src/RentManager.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/RentManager.cpp.s
 .PHONY : src/RentManager.cpp.s
 
 src/Repository.o: src/Repository.cpp.o
@@ -472,7 +472,7 @@ src/Repository.o: src/Repository.cpp.o
 
 # target to build an object file
 src/Repository.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.o
 .PHONY : src/Repository.cpp.o
 
 src/Repository.i: src/Repository.cpp.i
@@ -481,7 +481,7 @@ src/Repository.i: src/Repository.cpp.i
 
 # target to preprocess a source file
 src/Repository.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.i
 .PHONY : src/Repository.cpp.i
 
 src/Repository.s: src/Repository.cpp.s
@@ -490,7 +490,7 @@ src/Repository.s: src/Repository.cpp.s
 
 # target to generate assembly for a file
 src/Repository.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Repository.cpp.s
 .PHONY : src/Repository.cpp.s
 
 src/Small.o: src/Small.cpp.o
@@ -499,7 +499,7 @@ src/Small.o: src/Small.cpp.o
 
 # target to build an object file
 src/Small.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.o
 .PHONY : src/Small.cpp.o
 
 src/Small.i: src/Small.cpp.i
@@ -508,7 +508,7 @@ src/Small.i: src/Small.cpp.i
 
 # target to preprocess a source file
 src/Small.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.i
 .PHONY : src/Small.cpp.i
 
 src/Small.s: src/Small.cpp.s
@@ -517,7 +517,7 @@ src/Small.s: src/Small.cpp.s
 
 # target to generate assembly for a file
 src/Small.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Small.cpp.s
 .PHONY : src/Small.cpp.s
 
 src/Space.o: src/Space.cpp.o
@@ -526,7 +526,7 @@ src/Space.o: src/Space.cpp.o
 
 # target to build an object file
 src/Space.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.o
 .PHONY : src/Space.cpp.o
 
 src/Space.i: src/Space.cpp.i
@@ -535,7 +535,7 @@ src/Space.i: src/Space.cpp.i
 
 # target to preprocess a source file
 src/Space.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.i
 .PHONY : src/Space.cpp.i
 
 src/Space.s: src/Space.cpp.s
@@ -544,7 +544,7 @@ src/Space.s: src/Space.cpp.s
 
 # target to generate assembly for a file
 src/Space.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/Space.cpp.s
 .PHONY : src/Space.cpp.s
 
 src/SpaceException.o: src/SpaceException.cpp.o
@@ -553,7 +553,7 @@ src/SpaceException.o: src/SpaceException.cpp.o
 
 # target to build an object file
 src/SpaceException.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.o
 .PHONY : src/SpaceException.cpp.o
 
 src/SpaceException.i: src/SpaceException.cpp.i
@@ -562,7 +562,7 @@ src/SpaceException.i: src/SpaceException.cpp.i
 
 # target to preprocess a source file
 src/SpaceException.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.i
 .PHONY : src/SpaceException.cpp.i
 
 src/SpaceException.s: src/SpaceException.cpp.s
@@ -571,7 +571,7 @@ src/SpaceException.s: src/SpaceException.cpp.s
 
 # target to generate assembly for a file
 src/SpaceException.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceException.cpp.s
 .PHONY : src/SpaceException.cpp.s
 
 src/SpaceManager.o: src/SpaceManager.cpp.o
@@ -580,7 +580,7 @@ src/SpaceManager.o: src/SpaceManager.cpp.o
 
 # target to build an object file
 src/SpaceManager.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
 .PHONY : src/SpaceManager.cpp.o
 
 src/SpaceManager.i: src/SpaceManager.cpp.i
@@ -589,7 +589,7 @@ src/SpaceManager.i: src/SpaceManager.cpp.i
 
 # target to preprocess a source file
 src/SpaceManager.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.i
 .PHONY : src/SpaceManager.cpp.i
 
 src/SpaceManager.s: src/SpaceManager.cpp.s
@@ -598,7 +598,7 @@ src/SpaceManager.s: src/SpaceManager.cpp.s
 
 # target to generate assembly for a file
 src/SpaceManager.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Library.dir/build.make library/CMakeFiles/Library.dir/src/SpaceManager.cpp.s
 .PHONY : src/SpaceManager.cpp.s
 
 test/ClientTest.o: test/ClientTest.cpp.o
@@ -607,7 +607,7 @@ test/ClientTest.o: test/ClientTest.cpp.o
 
 # target to build an object file
 test/ClientTest.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
 .PHONY : test/ClientTest.cpp.o
 
 test/ClientTest.i: test/ClientTest.cpp.i
@@ -616,7 +616,7 @@ test/ClientTest.i: test/ClientTest.cpp.i
 
 # target to preprocess a source file
 test/ClientTest.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.i
 .PHONY : test/ClientTest.cpp.i
 
 test/ClientTest.s: test/ClientTest.cpp.s
@@ -625,7 +625,7 @@ test/ClientTest.s: test/ClientTest.cpp.s
 
 # target to generate assembly for a file
 test/ClientTest.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
 
 test/RentTest.o: test/RentTest.cpp.o
@@ -634,7 +634,7 @@ test/RentTest.o: test/RentTest.cpp.o
 
 # target to build an object file
 test/RentTest.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.o
 .PHONY : test/RentTest.cpp.o
 
 test/RentTest.i: test/RentTest.cpp.i
@@ -643,7 +643,7 @@ test/RentTest.i: test/RentTest.cpp.i
 
 # target to preprocess a source file
 test/RentTest.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.i
 .PHONY : test/RentTest.cpp.i
 
 test/RentTest.s: test/RentTest.cpp.s
@@ -652,7 +652,7 @@ test/RentTest.s: test/RentTest.cpp.s
 
 # target to generate assembly for a file
 test/RentTest.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.s
 .PHONY : test/RentTest.cpp.s
 
 test/RepoTest.o: test/RepoTest.cpp.o
@@ -661,7 +661,7 @@ test/RepoTest.o: test/RepoTest.cpp.o
 
 # target to build an object file
 test/RepoTest.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
 .PHONY : test/RepoTest.cpp.o
 
 test/RepoTest.i: test/RepoTest.cpp.i
@@ -670,7 +670,7 @@ test/RepoTest.i: test/RepoTest.cpp.i
 
 # target to preprocess a source file
 test/RepoTest.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.i
 .PHONY : test/RepoTest.cpp.i
 
 test/RepoTest.s: test/RepoTest.cpp.s
@@ -679,7 +679,7 @@ test/RepoTest.s: test/RepoTest.cpp.s
 
 # target to generate assembly for a file
 test/RepoTest.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.s
 .PHONY : test/RepoTest.cpp.s
 
 test/SpaceTest.o: test/SpaceTest.cpp.o
@@ -688,7 +688,7 @@ test/SpaceTest.o: test/SpaceTest.cpp.o
 
 # target to build an object file
 test/SpaceTest.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o
 .PHONY : test/SpaceTest.cpp.o
 
 test/SpaceTest.i: test/SpaceTest.cpp.i
@@ -697,7 +697,7 @@ test/SpaceTest.i: test/SpaceTest.cpp.i
 
 # target to preprocess a source file
 test/SpaceTest.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.i
 .PHONY : test/SpaceTest.cpp.i
 
 test/SpaceTest.s: test/SpaceTest.cpp.s
@@ -706,7 +706,7 @@ test/SpaceTest.s: test/SpaceTest.cpp.s
 
 # target to generate assembly for a file
 test/SpaceTest.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.s
 .PHONY : test/SpaceTest.cpp.s
 
 test/master.o: test/master.cpp.o
@@ -715,7 +715,7 @@ test/master.o: test/master.cpp.o
 
 # target to build an object file
 test/master.cpp.o:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.o
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.o
 .PHONY : test/master.cpp.o
 
 test/master.i: test/master.cpp.i
@@ -724,7 +724,7 @@ test/master.i: test/master.cpp.i
 
 # target to preprocess a source file
 test/master.cpp.i:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.i
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.i
 .PHONY : test/master.cpp.i
 
 test/master.s: test/master.cpp.s
@@ -733,7 +733,7 @@ test/master.s: test/master.cpp.s
 
 # target to generate assembly for a file
 test/master.cpp.s:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.s
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/master.cpp.s
 .PHONY : test/master.cpp.s
 
 # Help Target
@@ -822,6 +822,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

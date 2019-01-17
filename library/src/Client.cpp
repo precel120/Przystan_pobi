@@ -4,10 +4,8 @@
 
 #include "Client.h"
 #include <sstream>
-Client::Client(string firstName, string lastName, string address) {
-    this->firstName=firstName;
-    this->lastName=lastName;
-    this->address=address;
+Client::Client(string firstName, string lastName, string address):
+firstName(firstName),lastName(lastName),address(address){
     id = boost::uuids::random_generator()();
     clienttype = ClientType_ptr(new FirstTime());
 }

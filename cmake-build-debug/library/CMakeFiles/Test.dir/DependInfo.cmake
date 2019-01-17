@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pobi/CLionProjects/Proba2/library/test/ClientTest.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Test.dir/test/ClientTest.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Test.dir/test/RentTest.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/test/RepoTest.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Test.dir/test/RepoTest.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o"
-  "/home/pobi/CLionProjects/Proba2/library/test/master.cpp" "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Test.dir/test/master.cpp.o"
+  "/home/pobi/Pulpit/Nowy/library/test/ClientTest.cpp" "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Test.dir/test/ClientTest.cpp.o"
+  "/home/pobi/Pulpit/Nowy/library/test/RentTest.cpp" "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Test.dir/test/RentTest.cpp.o"
+  "/home/pobi/Pulpit/Nowy/library/test/RepoTest.cpp" "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Test.dir/test/RepoTest.cpp.o"
+  "/home/pobi/Pulpit/Nowy/library/test/SpaceTest.cpp" "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o"
+  "/home/pobi/Pulpit/Nowy/library/test/master.cpp" "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Test.dir/test/master.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -19,7 +19,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake"
+  "/home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/Library.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
