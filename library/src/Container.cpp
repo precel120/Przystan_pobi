@@ -17,8 +17,8 @@ int Container::actualRentalPrice() {
     }else throw SpaceException("zla waga statku");
 }
 
-string Container::getInfo() {
+string Container::showInfo() {
     stringstream all;
-    all<<" "<<Space::getID()<<" "<<length<<" "<<width<<" "<<actualRentalPrice()<<" "<<weight;
+    all<<"Container: "<<Space::getID()<<" "<<length<<" "<<width<<" "<<actualRentalPrice()<<" "<<weight;
     return all.str();
 }

@@ -19,8 +19,6 @@ BOOST_AUTO_TEST_CASE(CreatingRentCase){
         rent->finishRent();
         Rent_ptr r2 (new Rent(s2,c1));
         r2->finishRent();
-        cout<<rent->getInfo()<<endl;
-        cout<<r2->getInfo()<<endl;
         BOOST_REQUIRE_EQUAL(r2->getClient()->getAddress(),"stawowa 12");
         BOOST_REQUIRE_EQUAL(rent->getSpace(),s1);
 }

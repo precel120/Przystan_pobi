@@ -7,6 +7,7 @@
 
 #include "Repository.h"
 #include "SpaceException.h"
+#include <list>
 
 class SpaceManager {
     Repository<Space_ptr> available_spaces;
@@ -15,6 +16,7 @@ public:
     void add(Space_ptr space);
     void remove(Space_ptr space);
     int checkSize(char which);
+    string showAll(char which);
 };
 
 

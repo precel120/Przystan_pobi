@@ -17,6 +17,7 @@ public:
     void add(Client_ptr client);
     void remove(Client_ptr client);
     int checkSize();
+    string showAllClients();
 };
 
 

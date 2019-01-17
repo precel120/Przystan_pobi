@@ -9,8 +9,8 @@ Small::~Small() {}
 int Small::actualRentalPrice() {
     return baseRentPrice;
 }
-string Small::getInfo() {
+string Small::showInfo() {
     stringstream all;
-    all<<" "<<Space::getID()<<" "<<length<<" "<<width<<" "<<baseRentPrice;
+    all<<"Small: "<<Space::getID()<<" "<<length<<" "<<width<<" "<<baseRentPrice;
     return all.str();
 }

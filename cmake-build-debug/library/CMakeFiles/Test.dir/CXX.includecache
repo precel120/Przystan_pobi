@@ -163,6 +163,8 @@ Repository.h
 ../library/include/Repository.h
 SpaceException.h
 ../library/include/SpaceException.h
+list
+-
 
 /home/pobi/Pulpit/Nowy/library/test/ClientTest.cpp
 boost/test/unit_test.hpp
@@ -227,8 +229,4 @@ Cutter.h
 /home/pobi/Pulpit/Nowy/library/test/Cutter.h
 Small.h
 /home/pobi/Pulpit/Nowy/library/test/Small.h
-
-/home/pobi/Pulpit/Nowy/library/test/master.cpp
-boost/test/unit_test.hpp
--
 

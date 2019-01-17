@@ -35,7 +35,7 @@ class Rent {
 public:
     Rent(Space_ptr space,Client_ptr client);
     virtual ~Rent();
-    string getInfo();
+    string showInfo();
     boost::uuids::uuid getID();
     time_ptr getBegin();
     time_ptr getEnd();

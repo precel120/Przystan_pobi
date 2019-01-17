@@ -36,7 +36,15 @@ public:
             }
         }return nullptr;
     };
+    string showAll(){
+        stringstream all;
+        for(auto it: repoList){
+            all<<it->showInfo()<<endl;
+        }
+        return all.str();
+    };
     Repository<T>(){};
+    ~Repository(){};
     int checkSize(){
         return repoList.size();
     };

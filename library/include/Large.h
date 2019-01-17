@@ -17,7 +17,7 @@ protected:
 public:
     Large(int length,int width,int baseRentPrice,int weight);
     virtual ~Large();
-    virtual string getInfo()=0;
+    virtual string showInfo()=0;
     virtual int actualRentalPrice()=0;
 };
 

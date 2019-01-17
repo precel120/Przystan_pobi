@@ -22,6 +22,7 @@ BOOST_AUTO_TEST_SUITE(RepoTest)
         cm.add(c2);
         BOOST_REQUIRE_EQUAL(cm.checkSize(),2);
         cm.remove(c2);
+        cout<<cm.showAllClients()<<endl;
         BOOST_REQUIRE_EQUAL(cm.checkSize(),1);
     }
     BOOST_AUTO_TEST_CASE(SpaceManagerCase){
@@ -32,6 +33,7 @@ BOOST_AUTO_TEST_SUITE(RepoTest)
         sm.add(s1);
         sm.add(cu1);
         sm.add(co1);
+        cout<<sm.showAll('t')<<endl;
         BOOST_REQUIRE_EQUAL(sm.checkSize('t'),3);
         sm.remove(cu1);
         BOOST_REQUIRE_EQUAL(sm.checkSize('t'),2);
@@ -59,6 +61,7 @@ BOOST_AUTO_TEST_SUITE(RepoTest)
         BOOST_REQUIRE_EQUAL(rm.checkSize('c'),2);
         BOOST_REQUIRE_EQUAL(rm.checkSize('a'),1);
         rm.rent(r5);
+        cout<<rm.showAllRents('a');
         BOOST_REQUIRE_EQUAL(rm.checkSize('c'),3);
         rm.endRent(r5);
         BOOST_REQUIRE_EQUAL(rm.checkSize('a'),2);

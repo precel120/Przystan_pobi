@@ -10,7 +10,6 @@ BOOST_AUTO_TEST_SUITE(ClientTest)
 
     BOOST_AUTO_TEST_CASE(CreatingClientCase) {
         Client K1("adm", "jot", "Slomiana 23E");
-        cout << K1.getInfo()<<endl;
         BOOST_CHECK_EQUAL(K1.getFirstName(), "adm");
         BOOST_CHECK_EQUAL(K1.getLastName(), "jot");
         BOOST_CHECK_EQUAL(K1.getAddress(), "Slomiana 23E");

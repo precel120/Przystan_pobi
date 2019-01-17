@@ -22,3 +22,8 @@ int SpaceManager::checkSize(char which) {
     else if (which=='t')return taken_spaces.checkSize();
     else throw SpaceException("bledny typ miejsca");
 }
+string SpaceManager::showAll(char which) {
+    if(which=='a')  return available_spaces.showAll();
+    else if (which=='t')return taken_spaces.showAll();
+    else throw SpaceException("bledny typ miejsca");
+}

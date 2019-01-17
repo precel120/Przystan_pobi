@@ -19,3 +19,7 @@ void ClientManager::remove(Client_ptr client) {
 int ClientManager::checkSize() {
     return clients.checkSize();
 }
+
+string ClientManager::showAllClients() {
+    return clients.showAll();
+}

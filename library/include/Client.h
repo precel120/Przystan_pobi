@@ -37,7 +37,7 @@ public:
     string getLastName();
     string getAddress();
     void changeClientType(char type);
-    string getInfo();
+    string showInfo();
     void addRents();
     void remRents();
     int countRents();

@@ -15,6 +15,7 @@ public:
     void rent(Rent_ptr rent);
     void endRent(Rent_ptr rent);
     int checkSize(char a);
+    string showAllRents(char a);
 };
 
 

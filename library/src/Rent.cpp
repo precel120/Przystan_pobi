@@ -23,9 +23,9 @@ boost::uuids::uuid Rent::getID() {
     return id;
 }
 
-string Rent::getInfo() {
+string Rent::showInfo() {
 stringstream all;
-all<<id<<" "<<begin<<" "<<end<<" "<<client->getInfo()<<" "<<space->getInfo()<<" ";
+all<<"Rent: "<<id<<" "<<begin<<" "<<end<<" "<<getRentPrice()<<endl<<space->showInfo()<<endl<<client->showInfo();
 return all.str();
 }
 

@@ -33,3 +33,8 @@ int RentManager::checkSize(char a) {
     else if(a=='a')return archived_rents.checkSize();
     else throw RentException("zly typ repozytorium");
 }
+string RentManager::showAllRents(char a) {
+    if(a=='c') return current_rents.showAll();
+    else if(a=='a')return archived_rents.showAll();
+    else throw RentException("zly typ repozytorium");
+}

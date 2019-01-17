@@ -47,9 +47,9 @@ switch(type) {
 int Client::maxRents() {
     return clienttype->maxRents();
 }
-string Client::getInfo() {
+string Client::showInfo() {
     stringstream all;
-    all<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
+    all<<"Client: "<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
     return all.str();
 }
 

@@ -15,8 +15,8 @@ int Cutter::actualRentalPrice() {
     }else if(weight>0) return baseRentPrice*2;
     else throw SpaceException("zła waga statku");
 }
-string Cutter::getInfo() {
+string Cutter::showInfo() {
     stringstream all;
-    all<<" "<<Space::getID()<<" "<<length<<" "<<width<<" "<<actualRentalPrice()<<" "<<weight;
+    all<<"Cutter: "<<Space::getID()<<" "<<length<<" "<<width<<" "<<actualRentalPrice()<<" "<<weight;
     return all.str();
 }

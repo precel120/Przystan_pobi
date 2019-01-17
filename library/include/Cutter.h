@@ -12,7 +12,7 @@ class Cutter:public Large {
 public:
     Cutter(int length, int width, int baseRentPrice,int weight);
     virtual ~Cutter();
-    string getInfo();
+    string showInfo();
     int actualRentalPrice();
 };
 

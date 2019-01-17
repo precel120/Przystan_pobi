@@ -14,7 +14,7 @@ public:
     Small(int length, int width , int baseRentPrice);
     virtual ~Small();
     int actualRentalPrice();
-    string getInfo();
+    string showInfo();
 };
 
 
