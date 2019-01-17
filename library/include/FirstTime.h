@@ -10,7 +10,7 @@
 class FirstTime: public ClientType {
 public:
     FirstTime();
-    ~FirstTime();
+    virtual ~FirstTime();
     double discount();
     int maxRents();
 };

@@ -628,6 +628,33 @@ test/ClientTest.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
 
+test/RentTest.o: test/RentTest.cpp.o
+
+.PHONY : test/RentTest.o
+
+# target to build an object file
+test/RentTest.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.o
+.PHONY : test/RentTest.cpp.o
+
+test/RentTest.i: test/RentTest.cpp.i
+
+.PHONY : test/RentTest.i
+
+# target to preprocess a source file
+test/RentTest.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.i
+.PHONY : test/RentTest.cpp.i
+
+test/RentTest.s: test/RentTest.cpp.s
+
+.PHONY : test/RentTest.s
+
+# target to generate assembly for a file
+test/RentTest.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.s
+.PHONY : test/RentTest.cpp.s
+
 test/RepoTest.o: test/RepoTest.cpp.o
 
 .PHONY : test/RepoTest.o
@@ -654,6 +681,33 @@ test/RepoTest.s: test/RepoTest.cpp.s
 test/RepoTest.cpp.s:
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.s
 .PHONY : test/RepoTest.cpp.s
+
+test/SpaceTest.o: test/SpaceTest.cpp.o
+
+.PHONY : test/SpaceTest.o
+
+# target to build an object file
+test/SpaceTest.cpp.o:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o
+.PHONY : test/SpaceTest.cpp.o
+
+test/SpaceTest.i: test/SpaceTest.cpp.i
+
+.PHONY : test/SpaceTest.i
+
+# target to preprocess a source file
+test/SpaceTest.cpp.i:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.i
+.PHONY : test/SpaceTest.cpp.i
+
+test/SpaceTest.s: test/SpaceTest.cpp.s
+
+.PHONY : test/SpaceTest.s
+
+# target to generate assembly for a file
+test/SpaceTest.cpp.s:
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/SpaceTest.cpp.s
+.PHONY : test/SpaceTest.cpp.s
 
 test/master.o: test/master.cpp.o
 
@@ -745,9 +799,15 @@ help:
 	@echo "... test/ClientTest.o"
 	@echo "... test/ClientTest.i"
 	@echo "... test/ClientTest.s"
+	@echo "... test/RentTest.o"
+	@echo "... test/RentTest.i"
+	@echo "... test/RentTest.s"
 	@echo "... test/RepoTest.o"
 	@echo "... test/RepoTest.i"
 	@echo "... test/RepoTest.s"
+	@echo "... test/SpaceTest.o"
+	@echo "... test/SpaceTest.i"
+	@echo "... test/SpaceTest.s"
 	@echo "... test/master.o"
 	@echo "... test/master.i"
 	@echo "... test/master.s"

@@ -32,27 +32,23 @@ ClientException.h
 iostream
 -
 
+../library/include/ClientManager.h
+ClientException.h
+../library/include/ClientException.h
+Repository.h
+../library/include/Repository.h
+list
+../library/include/list
+boost/uuid/uuid.hpp
+-
+boost/uuid/uuid_io.hpp
+-
+
 ../library/include/ClientType.h
-
-../library/include/Container.h
-Large.h
-../library/include/Large.h
-
-../library/include/Cutter.h
-Large.h
-../library/include/Large.h
 
 ../library/include/FirstTime.h
 ClientType.h
 ../library/include/ClientType.h
-
-../library/include/Large.h
-Space.h
-../library/include/Space.h
-sstream
--
-iostream
--
 
 ../library/include/Regular.h
 ClientType.h
@@ -90,10 +86,34 @@ RentException.h
 iostream
 -
 
-../library/include/Small.h
+../library/include/RentManager.h
+Repository.h
+../library/include/Repository.h
+RentException.h
+../library/include/RentException.h
+
+../library/include/Repository.h
+list
+-
+iostream
+-
+fstream
+-
+algorithm
+-
+memory
+-
+Rent.h
+../library/include/Rent.h
 Space.h
 ../library/include/Space.h
-iostream
+Client.h
+../library/include/Client.h
+sstream
+-
+boost/uuid/uuid.hpp
+-
+boost/uuid/uuid_io.hpp
 -
 
 ../library/include/Space.h
@@ -116,19 +136,39 @@ boost/uuid/random_generator.hpp
 iostream
 -
 
-/home/pobi/CLionProjects/Proba2/library/src/Container.cpp
-Container.h
-/home/pobi/CLionProjects/Proba2/library/src/Container.h
+../library/include/SpaceManager.h
+Repository.h
+../library/include/Repository.h
+SpaceException.h
+../library/include/SpaceException.h
 
-/home/pobi/CLionProjects/Proba2/library/src/Cutter.cpp
-Cutter.h
-/home/pobi/CLionProjects/Proba2/library/src/Cutter.h
+/home/pobi/CLionProjects/Proba2/library/src/Client.cpp
+Client.h
+/home/pobi/CLionProjects/Proba2/library/src/Client.h
+sstream
+-
+
+/home/pobi/CLionProjects/Proba2/library/src/ClientManager.cpp
+ClientManager.h
+/home/pobi/CLionProjects/Proba2/library/src/ClientManager.h
+
+/home/pobi/CLionProjects/Proba2/library/src/FirstTime.cpp
+FirstTime.h
+/home/pobi/CLionProjects/Proba2/library/src/FirstTime.h
 
 /home/pobi/CLionProjects/Proba2/library/src/Rent.cpp
 Rent.h
 /home/pobi/CLionProjects/Proba2/library/src/Rent.h
 
-/home/pobi/CLionProjects/Proba2/library/src/Small.cpp
-Small.h
-/home/pobi/CLionProjects/Proba2/library/src/Small.h
+/home/pobi/CLionProjects/Proba2/library/src/RentManager.cpp
+RentManager.h
+/home/pobi/CLionProjects/Proba2/library/src/RentManager.h
+
+/home/pobi/CLionProjects/Proba2/library/src/Repository.cpp
+Repository.h
+/home/pobi/CLionProjects/Proba2/library/src/Repository.h
+
+/home/pobi/CLionProjects/Proba2/library/src/SpaceManager.cpp
+SpaceManager.h
+/home/pobi/CLionProjects/Proba2/library/src/SpaceManager.h
 

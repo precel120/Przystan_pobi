@@ -99,11 +99,39 @@ library/CMakeFiles/Test.dir/test/ClientTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/ClientTest.cpp.s"
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/test/ClientTest.cpp -o CMakeFiles/Test.dir/test/ClientTest.cpp.s
 
+library/CMakeFiles/Test.dir/test/RentTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/test/RentTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object library/CMakeFiles/Test.dir/test/RentTest.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/RentTest.cpp.o -c /home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp
+
+library/CMakeFiles/Test.dir/test/RentTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/RentTest.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp > CMakeFiles/Test.dir/test/RentTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/RentTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/RentTest.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp -o CMakeFiles/Test.dir/test/RentTest.cpp.s
+
+library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o: ../library/test/SpaceTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/SpaceTest.cpp.o -c /home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp
+
+library/CMakeFiles/Test.dir/test/SpaceTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/SpaceTest.cpp.i"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp > CMakeFiles/Test.dir/test/SpaceTest.cpp.i
+
+library/CMakeFiles/Test.dir/test/SpaceTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/SpaceTest.cpp.s"
+	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp -o CMakeFiles/Test.dir/test/SpaceTest.cpp.s
+
 # Object files for target Test
 Test_OBJECTS = \
 "CMakeFiles/Test.dir/test/master.cpp.o" \
 "CMakeFiles/Test.dir/test/RepoTest.cpp.o" \
-"CMakeFiles/Test.dir/test/ClientTest.cpp.o"
+"CMakeFiles/Test.dir/test/ClientTest.cpp.o" \
+"CMakeFiles/Test.dir/test/RentTest.cpp.o" \
+"CMakeFiles/Test.dir/test/SpaceTest.cpp.o"
 
 # External object files for target Test
 Test_EXTERNAL_OBJECTS =
@@ -111,11 +139,13 @@ Test_EXTERNAL_OBJECTS =
 library/Test: library/CMakeFiles/Test.dir/test/master.cpp.o
 library/Test: library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/RentTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/build.make
 library/Test: library/libLibrary.a
 library/Test: /usr/lib/x86_64-linux-gnu/libboost_unit_test_framework.so
 library/Test: library/CMakeFiles/Test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pobi/CLionProjects/Proba2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Test"
 	cd /home/pobi/CLionProjects/Proba2/cmake-build-debug/library && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

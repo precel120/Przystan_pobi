@@ -95,6 +95,16 @@
   "file": "/home/pobi/CLionProjects/Proba2/library/test/ClientTest.cpp"
 },
 {
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/RentTest.cpp.o -c /home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/test/RentTest.cpp"
+},
+{
+  "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/SpaceTest.cpp.o -c /home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp",
+  "file": "/home/pobi/CLionProjects/Proba2/library/test/SpaceTest.cpp"
+},
+{
   "directory": "/home/pobi/CLionProjects/Proba2/cmake-build-debug/program",
   "command": "/usr/bin/g++   -I/home/pobi/CLionProjects/Proba2/program/include -I/home/pobi/CLionProjects/Proba2/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/CLionProjects/Proba2/program/src/main.cpp",
   "file": "/home/pobi/CLionProjects/Proba2/program/src/main.cpp"
