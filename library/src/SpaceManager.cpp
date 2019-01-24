@@ -4,10 +4,17 @@
 
 #include "SpaceManager.h"
 
-void SpaceManager::add(Space_ptr space) {
-    if(available_spaces.find(space->getID()) == nullptr){
+void SpaceManager::addAvailable(Space_ptr space) {
+    if(available_spaces.find(space->getID()) == nullptr && taken_spaces.find(space->getID()) == nullptr){
+        available_spaces.create(space);
+    }else throw SpaceException("miejsce zostalo juz dodane jako wolne");
+}
+
+void SpaceManager::addTaken(Space_ptr space) {
+    if(available_spaces.find(space->getID()) != nullptr && taken_spaces.find(space->getID())==nullptr){
+        available_spaces.remove(space);
         taken_spaces.create(space);
-    }else throw SpaceException("miejsce jest juz zajete");
+    }else throw SpaceException("nie udalo sie zmienic na zajete miejsce");
 }
 
 void SpaceManager::remove(Space_ptr space) {

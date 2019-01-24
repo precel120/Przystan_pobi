@@ -46,10 +46,10 @@ RM = /snap/clion/58/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pobi/Pulpit/Nowy
+CMAKE_SOURCE_DIR = /home/pobi/Pulpit/123
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pobi/Pulpit/Nowy/cmake-build-debug
+CMAKE_BINARY_DIR = /home/pobi/Pulpit/123/cmake-build-debug
 
 # Utility rule file for check.
 
@@ -70,10 +70,10 @@ library/CMakeFiles/check.dir/build: check
 .PHONY : library/CMakeFiles/check.dir/build
 
 library/CMakeFiles/check.dir/clean:
-	cd /home/pobi/Pulpit/Nowy/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
+	cd /home/pobi/Pulpit/123/cmake-build-debug/library && $(CMAKE_COMMAND) -P CMakeFiles/check.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/check.dir/clean
 
 library/CMakeFiles/check.dir/depend:
-	cd /home/pobi/Pulpit/Nowy/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/Pulpit/Nowy /home/pobi/Pulpit/Nowy/library /home/pobi/Pulpit/Nowy/cmake-build-debug /home/pobi/Pulpit/Nowy/cmake-build-debug/library /home/pobi/Pulpit/Nowy/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pobi/Pulpit/123/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pobi/Pulpit/123 /home/pobi/Pulpit/123/library /home/pobi/Pulpit/123/cmake-build-debug /home/pobi/Pulpit/123/cmake-build-debug/library /home/pobi/Pulpit/123/cmake-build-debug/library/CMakeFiles/check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/check.dir/depend
 

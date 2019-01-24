@@ -49,7 +49,7 @@ int Client::maxRents() {
 }
 string Client::showInfo() {
     stringstream all;
-    all<<"Client: "<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
+    all<<"Client: "<<id<<" "<<firstName<<" "<<lastName<<" "<<address<<endl;
     return all.str();
 }
 

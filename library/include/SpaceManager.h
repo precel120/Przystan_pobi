@@ -13,7 +13,8 @@ class SpaceManager {
     Repository<Space_ptr> available_spaces;
     Repository<Space_ptr> taken_spaces;
 public:
-    void add(Space_ptr space);
+    void addTaken(Space_ptr space);
+    void addAvailable(Space_ptr space);
     void remove(Space_ptr space);
     int checkSize(char which);
     string showAll(char which);

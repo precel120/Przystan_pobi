@@ -25,7 +25,9 @@ boost::uuids::uuid Rent::getID() {
 
 string Rent::showInfo() {
 stringstream all;
-all<<"Rent: "<<id<<" "<<begin<<" "<<end<<" "<<getRentPrice()<<endl<<space->showInfo()<<endl<<client->showInfo();
+if(end.is_not_a_date_time()){
+    all<<"Rent: "<<id<<" "<<begin<<endl<<space->showInfo()<<endl<<client->showInfo();
+}else all<<"Rent: "<<id<<" "<<begin<<" "<<end<<" "<<getRentPrice()<<endl<<space->showInfo()<<endl<<client->showInfo();
 return all.str();
 }
 
@@ -49,8 +51,7 @@ Client_ptr Rent::getClient() {
 }
 
 int Rent::getRentPrice() {
-    int discount=(int)client->discount();
-    return rentDuration()*discount*space->actualRentalPrice();
+    return rentDuration()*client->discount()*space->actualRentalPrice();
 }
 
 int Rent::rentDuration() {

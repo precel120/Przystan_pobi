@@ -7,10 +7,10 @@ library/CMakeFiles/Library.dir/src/Client.cpp.o
  ../library/include/ClientType.h
  ../library/include/FirstTime.h
  ../library/include/Regular.h
- /home/pobi/Pulpit/Nowy/library/src/Client.cpp
+ /home/pobi/Pulpit/123/library/src/Client.cpp
 library/CMakeFiles/Library.dir/src/ClientException.cpp.o
  ../library/include/ClientException.h
- /home/pobi/Pulpit/Nowy/library/src/ClientException.cpp
+ /home/pobi/Pulpit/123/library/src/ClientException.cpp
 library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
@@ -23,32 +23,32 @@ library/CMakeFiles/Library.dir/src/ClientManager.cpp.o
  ../library/include/Repository.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/ClientManager.cpp
+ /home/pobi/Pulpit/123/library/src/ClientManager.cpp
 library/CMakeFiles/Library.dir/src/Container.cpp.o
  ../library/include/Container.h
  ../library/include/Large.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Container.cpp
+ /home/pobi/Pulpit/123/library/src/Container.cpp
 library/CMakeFiles/Library.dir/src/Cutter.cpp.o
  ../library/include/Cutter.h
  ../library/include/Large.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Cutter.cpp
+ /home/pobi/Pulpit/123/library/src/Cutter.cpp
 library/CMakeFiles/Library.dir/src/FirstTime.cpp.o
  ../library/include/ClientType.h
  ../library/include/FirstTime.h
- /home/pobi/Pulpit/Nowy/library/src/FirstTime.cpp
+ /home/pobi/Pulpit/123/library/src/FirstTime.cpp
 library/CMakeFiles/Library.dir/src/Large.cpp.o
  ../library/include/Large.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Large.cpp
+ /home/pobi/Pulpit/123/library/src/Large.cpp
 library/CMakeFiles/Library.dir/src/Regular.cpp.o
  ../library/include/ClientType.h
  ../library/include/Regular.h
- /home/pobi/Pulpit/Nowy/library/src/Regular.cpp
+ /home/pobi/Pulpit/123/library/src/Regular.cpp
 library/CMakeFiles/Library.dir/src/Rent.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
@@ -59,10 +59,10 @@ library/CMakeFiles/Library.dir/src/Rent.cpp.o
  ../library/include/RentException.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Rent.cpp
+ /home/pobi/Pulpit/123/library/src/Rent.cpp
 library/CMakeFiles/Library.dir/src/RentException.cpp.o
  ../library/include/RentException.h
- /home/pobi/Pulpit/Nowy/library/src/RentException.cpp
+ /home/pobi/Pulpit/123/library/src/RentException.cpp
 library/CMakeFiles/Library.dir/src/RentManager.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
@@ -75,7 +75,7 @@ library/CMakeFiles/Library.dir/src/RentManager.cpp.o
  ../library/include/Repository.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/RentManager.cpp
+ /home/pobi/Pulpit/123/library/src/RentManager.cpp
 library/CMakeFiles/Library.dir/src/Repository.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
@@ -87,19 +87,19 @@ library/CMakeFiles/Library.dir/src/Repository.cpp.o
  ../library/include/Repository.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Repository.cpp
+ /home/pobi/Pulpit/123/library/src/Repository.cpp
 library/CMakeFiles/Library.dir/src/Small.cpp.o
  ../library/include/Small.h
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Small.cpp
+ /home/pobi/Pulpit/123/library/src/Small.cpp
 library/CMakeFiles/Library.dir/src/Space.cpp.o
  ../library/include/Space.h
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/Space.cpp
+ /home/pobi/Pulpit/123/library/src/Space.cpp
 library/CMakeFiles/Library.dir/src/SpaceException.cpp.o
  ../library/include/SpaceException.h
- /home/pobi/Pulpit/Nowy/library/src/SpaceException.cpp
+ /home/pobi/Pulpit/123/library/src/SpaceException.cpp
 library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
@@ -112,4 +112,4 @@ library/CMakeFiles/Library.dir/src/SpaceManager.cpp.o
  ../library/include/Space.h
  ../library/include/SpaceException.h
  ../library/include/SpaceManager.h
- /home/pobi/Pulpit/Nowy/library/src/SpaceManager.cpp
+ /home/pobi/Pulpit/123/library/src/SpaceManager.cpp

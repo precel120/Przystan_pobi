@@ -1,4 +1,4 @@
-# Install script for directory: /home/pobi/Pulpit/Nowy/library
+# Install script for directory: /home/pobi/Pulpit/123/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

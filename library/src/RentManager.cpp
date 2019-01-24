@@ -5,8 +5,8 @@
 #include "RentManager.h"
 
 void RentManager::rent(Rent_ptr rent) {
-    if(current_rents.find(rent->getSpace()->getID())!= nullptr){
-        throw RentException("miejsce jest juz wypozyczone");
+    if(current_rents.find(rent->getID())!= nullptr){
+        throw RentException("wypozyczenie juz istnieje");
     }else if(rent->getClient()->maxRents()<rent->getClient()->countRents()){
         throw RentException("klient przekroczyl liczbe wypozyczen");
     }
@@ -21,10 +21,10 @@ void RentManager::endRent(Rent_ptr rent) {
         throw RentException("wypozyczenie nie istnieje");
     }else{
         Rent_ptr ptr = current_rents.find(rent->getID());
-        ptr->finishRent();
-        current_rents.remove(ptr);
+        rent->finishRent();
+        current_rents.remove(rent);
         archived_rents.create(ptr);
-        ptr->getClient()->remRents();
+        rent->getClient()->remRents();
     }
 }
 

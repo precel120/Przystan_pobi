@@ -8,33 +8,33 @@
 		<Option virtualFolders="CMake Files\;CMake Files\library\;CMake Files\program\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="check">
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 check"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Library">
-				<Option output="/home/pobi/Pulpit/Nowy/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option output="/home/pobi/Pulpit/123/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Nowy/library/include"/>
+					<Add directory="/home/pobi/Pulpit/123/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -45,20 +45,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Library/fast">
-				<Option output="/home/pobi/Pulpit/Nowy/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option output="/home/pobi/Pulpit/123/cmake-build-debug/library/libLibrary.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Nowy/library/include"/>
+					<Add directory="/home/pobi/Pulpit/123/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -69,20 +69,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Library/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test">
-				<Option output="/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option output="/home/pobi/Pulpit/123/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Nowy/library/include"/>
+					<Add directory="/home/pobi/Pulpit/123/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -93,20 +93,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Test/fast">
-				<Option output="/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/pobi/Pulpit/Nowy/cmake-build-debug/library"/>
+				<Option output="/home/pobi/Pulpit/123/cmake-build-debug/library/Test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/pobi/Pulpit/123/cmake-build-debug/library"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/home/pobi/Pulpit/Nowy/library/include"/>
+					<Add directory="/home/pobi/Pulpit/123/library/include"/>
 					<Add directory="/usr/include/c++/7"/>
 					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
 					<Add directory="/usr/include/c++/7/backward"/>
@@ -117,134 +117,134 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test/fast"/>
-					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/Nowy/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 Test/fast"/>
+					<CompileFile command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j2 -f &quot;/home/pobi/Pulpit/123/cmake-build-debug/library/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Client.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Client.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/ClientException.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/ClientException.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/ClientManager.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/ClientManager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/ClientType.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/ClientType.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Container.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Container.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Cutter.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Cutter.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/FirstTime.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/FirstTime.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Large.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Large.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Regular.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Regular.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Rent.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Rent.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/RentException.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/RentException.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/RentManager.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/RentManager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Repository.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Repository.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Small.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Small.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/Space.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/Space.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/SpaceException.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/SpaceException.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/include/SpaceManager.h">
+		<Unit filename="/home/pobi/Pulpit/123/library/include/SpaceManager.h">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Client.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Client.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/ClientException.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/ClientException.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/ClientManager.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/ClientManager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Container.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Container.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Cutter.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Cutter.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/FirstTime.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/FirstTime.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Large.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Large.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Regular.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Regular.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Rent.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Rent.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/RentException.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/RentException.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/RentManager.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/RentManager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Repository.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Repository.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Small.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Small.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/Space.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/Space.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/SpaceException.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/SpaceException.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/src/SpaceManager.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/src/SpaceManager.cpp">
 			<Option target="Library"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/test/ClientTest.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/test/ClientTest.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/test/RentTest.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/test/RentTest.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/test/RepoTest.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/test/RepoTest.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/test/SpaceTest.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/test/SpaceTest.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/test/master.cpp">
+		<Unit filename="/home/pobi/Pulpit/123/library/test/master.cpp">
 			<Option target="Test"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/123/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/library/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/123/library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\library\"/>
 		</Unit>
-		<Unit filename="/home/pobi/Pulpit/Nowy/program/CMakeLists.txt">
+		<Unit filename="/home/pobi/Pulpit/123/program/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\program\"/>
 		</Unit>
 	</Project>
