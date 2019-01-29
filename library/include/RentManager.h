@@ -14,6 +14,7 @@ Repository<Rent_ptr> archived_rents;
 public:
     void rent(Rent_ptr rent);
     void endRent(Rent_ptr rent);
+    Space_ptr findMe(Rent_ptr rent);
     int checkSize(char a);
     string showAllRents(char a);
 };

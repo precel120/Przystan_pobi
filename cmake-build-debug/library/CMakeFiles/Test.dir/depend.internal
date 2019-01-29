@@ -16,22 +16,7 @@ library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
  ../library/include/Space.h
  ../library/include/SpaceException.h
  /home/pobi/Pulpit/123/library/test/ClientTest.cpp
-library/CMakeFiles/Test.dir/test/RentTest.cpp.o
- ../library/include/Client.h
- ../library/include/ClientException.h
- ../library/include/ClientType.h
- ../library/include/Container.h
- ../library/include/Cutter.h
- ../library/include/FirstTime.h
- ../library/include/Large.h
- ../library/include/Regular.h
- ../library/include/Rent.h
- ../library/include/RentException.h
- ../library/include/Small.h
- ../library/include/Space.h
- ../library/include/SpaceException.h
- /home/pobi/Pulpit/123/library/test/RentTest.cpp
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h
  ../library/include/ClientManager.h
@@ -49,7 +34,22 @@ library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
  ../library/include/Space.h
  ../library/include/SpaceException.h
  ../library/include/SpaceManager.h
- /home/pobi/Pulpit/123/library/test/RepoTest.cpp
+ /home/pobi/Pulpit/123/library/test/ManagersTest.cpp
+library/CMakeFiles/Test.dir/test/RentTest.cpp.o
+ ../library/include/Client.h
+ ../library/include/ClientException.h
+ ../library/include/ClientType.h
+ ../library/include/Container.h
+ ../library/include/Cutter.h
+ ../library/include/FirstTime.h
+ ../library/include/Large.h
+ ../library/include/Regular.h
+ ../library/include/Rent.h
+ ../library/include/RentException.h
+ ../library/include/Small.h
+ ../library/include/Space.h
+ ../library/include/SpaceException.h
+ /home/pobi/Pulpit/123/library/test/RentTest.cpp
 library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o
  ../library/include/Client.h
  ../library/include/ClientException.h

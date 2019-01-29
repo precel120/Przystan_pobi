@@ -61,7 +61,7 @@ endif()
 
 set(SOURCE_TEST_FILES
         test/master.cpp
-        test/RepoTest.cpp test/ClientTest.cpp test/RentTest.cpp test/SpaceTest.cpp)
+        test/ManagersTest.cpp test/ClientTest.cpp test/RentTest.cpp test/SpaceTest.cpp)
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/include

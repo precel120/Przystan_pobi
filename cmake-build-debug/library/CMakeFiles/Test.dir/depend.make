@@ -16,6 +16,25 @@ library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/include/Space.h
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/include/SpaceException.h
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/test/ClientTest.cpp
 
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Client.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/ClientException.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/ClientManager.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/ClientType.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Container.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Cutter.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/FirstTime.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Large.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Regular.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Rent.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/RentException.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/RentManager.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Repository.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Small.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/Space.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/SpaceException.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/include/SpaceManager.h
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/test/ManagersTest.cpp
+
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/Client.h
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/ClientException.h
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/ClientType.h
@@ -30,25 +49,6 @@ library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/Small.h
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/Space.h
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/include/SpaceException.h
 library/CMakeFiles/Test.dir/test/RentTest.cpp.o: ../library/test/RentTest.cpp
-
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Client.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/ClientException.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/ClientManager.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/ClientType.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Container.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Cutter.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/FirstTime.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Large.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Regular.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Rent.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/RentException.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/RentManager.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Repository.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Small.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/Space.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/SpaceException.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/include/SpaceManager.h
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/test/RepoTest.cpp
 
 library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o: ../library/include/Client.h
 library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o: ../library/include/ClientException.h

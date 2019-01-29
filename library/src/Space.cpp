@@ -6,7 +6,7 @@
 
 Space::Space(int length, int width,int baseRentPrice){
 
-    if(length<0 || width<0 || baseRentPrice<0){
+    if(length<=0 || width<=0 || baseRentPrice<=0){
         throw SpaceException("dane mniejsze od zera");
     } else
         id= boost::uuids::random_generator()();

@@ -86,8 +86,8 @@
 },
 {
   "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/RepoTest.cpp.o -c /home/pobi/Pulpit/123/library/test/RepoTest.cpp",
-  "file": "/home/pobi/Pulpit/123/library/test/RepoTest.cpp"
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ManagersTest.cpp.o -c /home/pobi/Pulpit/123/library/test/ManagersTest.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/ManagersTest.cpp"
 },
 {
   "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",

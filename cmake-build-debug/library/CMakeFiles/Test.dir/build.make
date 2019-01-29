@@ -73,18 +73,18 @@ library/CMakeFiles/Test.dir/test/master.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/master.cpp.s"
 	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/123/library/test/master.cpp -o CMakeFiles/Test.dir/test/master.cpp.s
 
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.o: ../library/test/RepoTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/123/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Test.dir/test/RepoTest.cpp.o"
-	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/RepoTest.cpp.o -c /home/pobi/Pulpit/123/library/test/RepoTest.cpp
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o: ../library/test/ManagersTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pobi/Pulpit/123/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o"
+	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Test.dir/test/ManagersTest.cpp.o -c /home/pobi/Pulpit/123/library/test/ManagersTest.cpp
 
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/RepoTest.cpp.i"
-	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/123/library/test/RepoTest.cpp > CMakeFiles/Test.dir/test/RepoTest.cpp.i
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Test.dir/test/ManagersTest.cpp.i"
+	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pobi/Pulpit/123/library/test/ManagersTest.cpp > CMakeFiles/Test.dir/test/ManagersTest.cpp.i
 
-library/CMakeFiles/Test.dir/test/RepoTest.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/RepoTest.cpp.s"
-	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/123/library/test/RepoTest.cpp -o CMakeFiles/Test.dir/test/RepoTest.cpp.s
+library/CMakeFiles/Test.dir/test/ManagersTest.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Test.dir/test/ManagersTest.cpp.s"
+	cd /home/pobi/Pulpit/123/cmake-build-debug/library && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pobi/Pulpit/123/library/test/ManagersTest.cpp -o CMakeFiles/Test.dir/test/ManagersTest.cpp.s
 
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: library/CMakeFiles/Test.dir/flags.make
 library/CMakeFiles/Test.dir/test/ClientTest.cpp.o: ../library/test/ClientTest.cpp
@@ -128,7 +128,7 @@ library/CMakeFiles/Test.dir/test/SpaceTest.cpp.s: cmake_force
 # Object files for target Test
 Test_OBJECTS = \
 "CMakeFiles/Test.dir/test/master.cpp.o" \
-"CMakeFiles/Test.dir/test/RepoTest.cpp.o" \
+"CMakeFiles/Test.dir/test/ManagersTest.cpp.o" \
 "CMakeFiles/Test.dir/test/ClientTest.cpp.o" \
 "CMakeFiles/Test.dir/test/RentTest.cpp.o" \
 "CMakeFiles/Test.dir/test/SpaceTest.cpp.o"
@@ -137,7 +137,7 @@ Test_OBJECTS = \
 Test_EXTERNAL_OBJECTS =
 
 library/Test: library/CMakeFiles/Test.dir/test/master.cpp.o
-library/Test: library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
+library/Test: library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/test/ClientTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/test/RentTest.cpp.o
 library/Test: library/CMakeFiles/Test.dir/test/SpaceTest.cpp.o

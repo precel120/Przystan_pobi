@@ -9,7 +9,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77dc2501-7483-4a69-bf92-2dd0acc4ee53" name="Default Changelist" comment="" />
+    <list default="true" id="77dc2501-7483-4a69-bf92-2dd0acc4ee53" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/library/src/Large.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/Large.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/library/src/Space.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/library/src/Space.cpp" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,10 +24,11 @@
     <session id="-132656408">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -54,12 +58,12 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/include/RentManager.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+            <state relative-caret-position="289">
+              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -67,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/src/RentManager.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="1" />
+            <state relative-caret-position="306">
+              <caret line="18" selection-start-line="38" selection-start-column="53" selection-end-line="39" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -76,8 +80,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/library/include/Client.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="303">
-              <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="20" />
+            <state relative-caret-position="680">
+              <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -86,7 +90,7 @@
         <entry file="file://$PROJECT_DIR$/library/src/Client.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="303">
-              <caret line="59" selection-start-line="59" selection-end-line="63" />
+              <caret line="58" selection-start-line="58" selection-end-line="62" />
             </state>
           </provider>
         </entry>
@@ -127,6 +131,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,7 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,16 +193,17 @@
       <workItem from="1547568229558" duration="738000" />
       <workItem from="1547579987589" duration="170000" />
       <workItem from="1547641356380" duration="1227000" />
+      <workItem from="1548687526535" duration="6000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2135000" />
+    <option name="totallyTimeSpent" value="2141000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="12" y="38" width="932" height="902" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25458714" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603211" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -212,7 +217,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294271" />
+      <window_info active="true" anchor="bottom" id="CMake" order="11" visible="true" weight="0.3294271" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -252,13 +257,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/library/include/RentManager.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/library/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -278,24 +276,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/library/include/RentManager.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/library/src/RentManager.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="306">
+          <caret line="18" selection-start-line="38" selection-start-column="53" selection-end-line="39" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/include/Client.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="40" selection-start-line="40" selection-end-line="40" selection-end-column="20" />
+        <state relative-caret-position="680">
+          <caret line="41" selection-start-line="41" selection-end-line="41" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/library/src/Client.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="303">
-          <caret line="59" selection-start-line="59" selection-end-line="63" />
+          <caret line="58" selection-start-line="58" selection-end-line="62" />
         </state>
       </provider>
     </entry>

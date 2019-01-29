@@ -628,6 +628,33 @@ test/ClientTest.cpp.s:
 	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ClientTest.cpp.s
 .PHONY : test/ClientTest.cpp.s
 
+test/ManagersTest.o: test/ManagersTest.cpp.o
+
+.PHONY : test/ManagersTest.o
+
+# target to build an object file
+test/ManagersTest.cpp.o:
+	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagersTest.cpp.o
+.PHONY : test/ManagersTest.cpp.o
+
+test/ManagersTest.i: test/ManagersTest.cpp.i
+
+.PHONY : test/ManagersTest.i
+
+# target to preprocess a source file
+test/ManagersTest.cpp.i:
+	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagersTest.cpp.i
+.PHONY : test/ManagersTest.cpp.i
+
+test/ManagersTest.s: test/ManagersTest.cpp.s
+
+.PHONY : test/ManagersTest.s
+
+# target to generate assembly for a file
+test/ManagersTest.cpp.s:
+	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/ManagersTest.cpp.s
+.PHONY : test/ManagersTest.cpp.s
+
 test/RentTest.o: test/RentTest.cpp.o
 
 .PHONY : test/RentTest.o
@@ -654,33 +681,6 @@ test/RentTest.s: test/RentTest.cpp.s
 test/RentTest.cpp.s:
 	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RentTest.cpp.s
 .PHONY : test/RentTest.cpp.s
-
-test/RepoTest.o: test/RepoTest.cpp.o
-
-.PHONY : test/RepoTest.o
-
-# target to build an object file
-test/RepoTest.cpp.o:
-	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.o
-.PHONY : test/RepoTest.cpp.o
-
-test/RepoTest.i: test/RepoTest.cpp.i
-
-.PHONY : test/RepoTest.i
-
-# target to preprocess a source file
-test/RepoTest.cpp.i:
-	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.i
-.PHONY : test/RepoTest.cpp.i
-
-test/RepoTest.s: test/RepoTest.cpp.s
-
-.PHONY : test/RepoTest.s
-
-# target to generate assembly for a file
-test/RepoTest.cpp.s:
-	cd /home/pobi/Pulpit/123/cmake-build-debug && $(MAKE) -f library/CMakeFiles/Test.dir/build.make library/CMakeFiles/Test.dir/test/RepoTest.cpp.s
-.PHONY : test/RepoTest.cpp.s
 
 test/SpaceTest.o: test/SpaceTest.cpp.o
 
@@ -799,12 +799,12 @@ help:
 	@echo "... test/ClientTest.o"
 	@echo "... test/ClientTest.i"
 	@echo "... test/ClientTest.s"
+	@echo "... test/ManagersTest.o"
+	@echo "... test/ManagersTest.i"
+	@echo "... test/ManagersTest.s"
 	@echo "... test/RentTest.o"
 	@echo "... test/RentTest.i"
 	@echo "... test/RentTest.s"
-	@echo "... test/RepoTest.o"
-	@echo "... test/RepoTest.i"
-	@echo "... test/RepoTest.s"
 	@echo "... test/SpaceTest.o"
 	@echo "... test/SpaceTest.i"
 	@echo "... test/SpaceTest.s"

@@ -36,6 +36,7 @@ public:
             }
         }return nullptr;
     };
+    T findMe(T object);
     string showAll(){
         stringstream all;
         for(auto it: repoList){
