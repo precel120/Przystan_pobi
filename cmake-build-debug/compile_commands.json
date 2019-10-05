@@ -1,62 +1,112 @@
 [
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Client.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Client.cpp.o -c /home/pobi/Pulpit/123/library/src/Client.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Client.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Regular.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Regular.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Regular.cpp.o -c /home/pobi/Pulpit/123/library/src/Regular.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Regular.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/FirstTime.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/FirstTime.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/FirstTime.cpp.o -c /home/pobi/Pulpit/123/library/src/FirstTime.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/FirstTime.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Rent.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Rent.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Rent.cpp.o -c /home/pobi/Pulpit/123/library/src/Rent.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Rent.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Space.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Space.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Space.cpp.o -c /home/pobi/Pulpit/123/library/src/Space.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Space.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Large.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Large.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Large.cpp.o -c /home/pobi/Pulpit/123/library/src/Large.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Large.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Small.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Small.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Small.cpp.o -c /home/pobi/Pulpit/123/library/src/Small.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Small.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Container.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Container.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Container.cpp.o -c /home/pobi/Pulpit/123/library/src/Container.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Container.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Cutter.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/src/Cutter.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Cutter.cpp.o -c /home/pobi/Pulpit/123/library/src/Cutter.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Cutter.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/master.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/test/master.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/test/master.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentException.cpp.o -c /home/pobi/Pulpit/123/library/src/RentException.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/RentException.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/library",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/PojazdTest.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/library/test/PojazdTest.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/library/test/PojazdTest.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SpaceException.cpp.o -c /home/pobi/Pulpit/123/library/src/SpaceException.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/SpaceException.cpp"
 },
 {
-  "directory": "/home/pobi/Pulpit/ProjectPOBI/cmake-build-debug/program",
-  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/ProjectPOBI/program/include -I/home/pobi/Pulpit/ProjectPOBI/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/Pulpit/ProjectPOBI/program/src/main.cpp",
-  "file": "/home/pobi/Pulpit/ProjectPOBI/program/src/main.cpp"
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientException.cpp.o -c /home/pobi/Pulpit/123/library/src/ClientException.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/ClientException.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/Repository.cpp.o -c /home/pobi/Pulpit/123/library/src/Repository.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/Repository.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/SpaceManager.cpp.o -c /home/pobi/Pulpit/123/library/src/SpaceManager.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/SpaceManager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/ClientManager.cpp.o -c /home/pobi/Pulpit/123/library/src/ClientManager.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/ClientManager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Library.dir/src/RentManager.cpp.o -c /home/pobi/Pulpit/123/library/src/RentManager.cpp",
+  "file": "/home/pobi/Pulpit/123/library/src/RentManager.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/master.cpp.o -c /home/pobi/Pulpit/123/library/test/master.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/master.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ManagersTest.cpp.o -c /home/pobi/Pulpit/123/library/test/ManagersTest.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/ManagersTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/ClientTest.cpp.o -c /home/pobi/Pulpit/123/library/test/ClientTest.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/ClientTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/RentTest.cpp.o -c /home/pobi/Pulpit/123/library/test/RentTest.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/RentTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/library",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Test.dir/test/SpaceTest.cpp.o -c /home/pobi/Pulpit/123/library/test/SpaceTest.cpp",
+  "file": "/home/pobi/Pulpit/123/library/test/SpaceTest.cpp"
+},
+{
+  "directory": "/home/pobi/Pulpit/123/cmake-build-debug/program",
+  "command": "/usr/bin/g++   -I/home/pobi/Pulpit/123/program/include -I/home/pobi/Pulpit/123/library/include  -g   -std=gnu++11 -o CMakeFiles/Program.dir/src/main.cpp.o -c /home/pobi/Pulpit/123/program/src/main.cpp",
+  "file": "/home/pobi/Pulpit/123/program/src/main.cpp"
 }
 ]

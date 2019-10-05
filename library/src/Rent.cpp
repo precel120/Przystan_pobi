@@ -4,24 +4,39 @@
 
 #include "Rent.h"
 
-Rent::Rent(Client_ptr client, Space_ptr space) {
-    this->client=client;
-    this->space=space;
-    id = boost::uuids::random_generator()();
+Rent::Rent(Space_ptr space,Client_ptr client) {
+    if(client== nullptr){
+        throw ClientException("klient jest pusty");
+    }
+    if(space== nullptr){
+        throw SpaceException("miejsce jest puste");
+    }else {
+        this->client = client;
+        this->space = space;
+        id = boost::uuids::random_generator()();
+        this->begin=boost::posix_time::second_clock::local_time();
+    }
 }
+Rent::~Rent() {}
 
 boost::uuids::uuid Rent::getID() {
     return id;
 }
 
-string Rent::rentInfo() {
+string Rent::showInfo() {
 stringstream all;
-all<<id<<begin<<end<<space->spaceInfo()<<client->clientInfo();
+if(end.is_not_a_date_time()){
+    all<<"Rent: "<<id<<" "<<begin<<endl<<space->showInfo()<<endl<<client->showInfo();
+}else all<<"Rent: "<<id<<" "<<begin<<" "<<end<<" "<<getRentPrice()<<endl<<space->showInfo()<<endl<<client->showInfo();
 return all.str();
 }
 
 time_ptr Rent::getBegin() {
     return begin;
+}
+
+void Rent::finishRent(){
+    end=boost::posix_time::second_clock::local_time();
 }
 
 time_ptr Rent::getEnd() {
@@ -36,6 +51,11 @@ Client_ptr Rent::getClient() {
 }
 
 int Rent::getRentPrice() {
-    int discount=(int)client->discount();
-    return discount*space->getActualRentalPrice();
+    return rentDuration()*client->discount()*space->actualRentalPrice();
+}
+
+int Rent::rentDuration() {
+    if(end.is_not_a_date_time()) throw RentException("data zakonczenia wypozyczenia nie jest data");
+    if(end.date()<begin.date()) throw RentException("zla data zakonczenia wypozyczenia");
+    else return (end.date()-begin.date()).days()+1;
 }

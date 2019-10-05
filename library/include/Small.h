@@ -11,9 +11,10 @@ using namespace std;
 
 class Small:public Space {
 public:
-    Small(string id,int length, int width , int baseRentPrice);
-    ~Small();
-    int getActualRentalPrice();
+    Small(int length, int width , int baseRentPrice);
+    virtual ~Small();
+    int actualRentalPrice();
+    string showInfo();
 };
 
 

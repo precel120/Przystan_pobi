@@ -15,6 +15,7 @@ using namespace std;
 #include "Regular.h"
 #include "FirstTime.h"
 #include <sstream>
+#include "ClientException.h"
 
 typedef shared_ptr<ClientType> ClientType_ptr;
 
@@ -25,16 +26,21 @@ private:
     string lastName;
     string address;
     ClientType_ptr clienttype;
+    int numberRents=0;
 public:
     Client(string firstName,string lastName,string address);
+    virtual ~Client();
     double discount();
-    int maxSpace();
+    int maxRents();
     boost::uuids::uuid getID();
     string getFirstName();
     string getLastName();
     string getAddress();
     void changeClientType(char type);
-    string clientInfo();
+    string showInfo();
+    void addRents();
+    void remRents();
+    int countRents();
 };
 
 

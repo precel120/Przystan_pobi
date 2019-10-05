@@ -8,6 +8,6 @@ FirstTime::~FirstTime() {}
 double FirstTime::discount() {
     return 1;
 }
-int FirstTime::maxSpace() {
+int FirstTime::maxRents() {
     return 1;
 }

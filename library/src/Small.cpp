@@ -3,8 +3,14 @@
 //
 
 #include "Small.h"
-Small::Small(string id,int length,int width,int baseRentPrice):
-Space(id,length,width,baseRentPrice){}
-int Small::getActualRentalPrice() {
-    Space::getActualRentalPrice();
+Small::Small(int length,int width,int baseRentPrice):
+Space(length,width,baseRentPrice){}
+Small::~Small() {}
+int Small::actualRentalPrice() {
+    return baseRentPrice;
+}
+string Small::showInfo() {
+    stringstream all;
+    all<<"Small: "<<Space::getID()<<" "<<length<<" "<<width<<" "<<baseRentPrice;
+    return all.str();
 }

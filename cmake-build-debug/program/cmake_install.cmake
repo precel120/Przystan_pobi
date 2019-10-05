@@ -1,4 +1,4 @@
-# Install script for directory: /home/pobi/Pulpit/ProjectPOBI/program
+# Install script for directory: /home/pobi/Pulpit/123/program
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

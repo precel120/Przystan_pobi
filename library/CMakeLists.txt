@@ -22,7 +22,7 @@ set(SOURCE_FILES
         src/Container.cpp
         include/Container.h
         src/Cutter.cpp
-        include/Cutter.h)
+        include/Cutter.h src/RentException.cpp include/RentException.h src/SpaceException.cpp include/SpaceException.h src/ClientException.cpp include/ClientException.h src/Repository.cpp include/Repository.h src/SpaceManager.cpp include/SpaceManager.h src/ClientManager.cpp include/ClientManager.h src/RentManager.cpp include/RentManager.h)
 
 add_library(Library ${SOURCE_FILES})
 
@@ -61,8 +61,7 @@ endif()
 
 set(SOURCE_TEST_FILES
         test/master.cpp
-        test/PojazdTest.cpp
-        )
+        test/ManagersTest.cpp test/ClientTest.cpp test/RentTest.cpp test/SpaceTest.cpp)
 
 include_directories(
         ${CMAKE_CURRENT_SOURCE_DIR}/include

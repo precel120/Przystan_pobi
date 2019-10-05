@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pobi/Pulpit/ProjectPOBI/program/include -I/home/pobi/Pulpit/ProjectPOBI/library/include 
+CXX_INCLUDES = -I/home/pobi/Pulpit/123/program/include -I/home/pobi/Pulpit/123/library/include 
 

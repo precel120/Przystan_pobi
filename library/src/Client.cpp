@@ -4,12 +4,12 @@
 
 #include "Client.h"
 #include <sstream>
-Client::Client(string firstName, string lastName, string address) {
-    this->firstName=firstName;
-    this->lastName=lastName;
-    this->address=address;
+Client::Client(string firstName, string lastName, string address):
+firstName(firstName),lastName(lastName),address(address){
     id = boost::uuids::random_generator()();
+    clienttype = ClientType_ptr(new FirstTime());
 }
+Client::~Client() {}
 
 boost::uuids::uuid Client::getID() {
     return id;
@@ -39,16 +39,30 @@ switch(type) {
     case 'F':
         clienttype=ClientType_ptr(new FirstTime());
         break;
+    default:
+        throw ClientException("zły typ clienta");
 }
 }
 
-int Client::maxSpace() {
-    return clienttype->maxSpace();
+int Client::maxRents() {
+    return clienttype->maxRents();
 }
-string Client::clientInfo() {
+string Client::showInfo() {
     stringstream all;
-    all<<id<<" "<<firstName<<" "<<lastName<<" "<<address;
+    all<<"Client: "<<id<<" "<<firstName<<" "<<lastName<<" "<<address<<endl;
     return all.str();
+}
+
+void Client::addRents() {
+    this->numberRents++;
+}
+
+void Client::remRents(){
+    this->numberRents--;
+}
+
+int Client::countRents() {
+    return this->numberRents;
 }
 
 

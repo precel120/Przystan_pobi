@@ -9,7 +9,7 @@
 class ClientType {
 public:
     virtual double discount()=0;
-    virtual int maxSpace()=0;
+    virtual int maxRents()=0;
 };
 
 

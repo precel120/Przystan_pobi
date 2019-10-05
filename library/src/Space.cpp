@@ -4,18 +4,19 @@
 
 #include "Space.h"
 
-Space::Space(string id,int length, int width,int baseRentPrice) {
-    this->id=id;
-    this->length=length;
-    this->width=width;
-    this->baseRentPrice=baseRentPrice;
+Space::Space(int length, int width,int baseRentPrice){
+
+    if(length<=0 || width<=0 || baseRentPrice<=0){
+        throw SpaceException("dane mniejsze od zera");
+    } else
+        id= boost::uuids::random_generator()();
+        this->length=length;
+        this->width=width;
+        this->baseRentPrice=baseRentPrice;
+
 }
 Space::~Space() {}
-int Space::getActualRentalPrice() {
-    return baseRentPrice;
-}
-string Space::spaceInfo() {
-    stringstream all;
-    all<<length<<width<<baseRentPrice;
-    return all.str();
+
+boost::uuids::uuid Space::getID() {
+    return id;
 }
